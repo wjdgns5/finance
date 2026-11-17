@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.MockApiIntegrationTest" tests="3" skipped="3" failures="0" errors="0" timestamp="2026-11-17T00:46:24" hostname="DESKTOP-TMU829P" time="0.002">
+  <properties/>
+  <testcase name="fullHttpFlowUsesMysqlFlywayAndPreservesMetadata()" classname="com.stockinsight.MockApiIntegrationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="partialUnsupportedAndInvalidCasesAreDistinct()" classname="com.stockinsight.MockApiIntegrationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="restartSeedingIsIdempotent()" classname="com.stockinsight.MockApiIntegrationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,5 @@
+{"response":{"header":{"resultCode":"00","resultMsg":"NORMAL SERVICE"},"body":{"totalCount":3,"items":{"item":[
+  {"basDt":"20261113","srtnCd":"123456","mrktCtg":"KOSPI","clpr":"80","mrktTotAmt":"8000"},
+  {"basDt":"20261116","srtnCd":"123456","mrktCtg":"KOSPI","clpr":"90","mrktTotAmt":"9000"},
+  {"basDt":"20261116","srtnCd":"912345","mrktCtg":"KOSPI","clpr":"999","mrktTotAmt":"99900"}
+]}}}}

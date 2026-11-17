@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.service.FinancialMetricCalculatorTest" tests="89" skipped="0" failures="0" errors="0" timestamp="2026-11-17T07:43:54" hostname="DESKTOP-TMU829P" time="0.292">
+  <properties/>
+  <testcase name="unknownPreferredStatusNeverMeansNoPreferredShares()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.005"/>
+  <testcase name="priceAbsenceOnlyAffectsPriceDependentMetrics()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.004"/>
+  <testcase name="duplicateAccountIsRejectedWithoutChoosingAnArbitraryValue()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="usesParentEquityForCfsAndTotalEquityForOfs()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="doesNotUseRoundedBpsOrEpsForAnotherCalculation()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NORMAL / REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.006"/>
+  <testcase name="NORMAL / OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NORMAL / NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NORMAL / ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NORMAL / ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NORMAL / DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NORMAL / EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NORMAL / BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NORMAL / PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NORMAL / PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NEGATIVE / REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NEGATIVE / PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NEGATIVE / PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="ZERO / REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="ZERO / OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="ZERO / NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.0"/>
+  <testcase name="ZERO / ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="ZERO / ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="ZERO / DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="ZERO / EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="ZERO / BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="ZERO / PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.016"/>
+  <testcase name="ZERO / PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.01"/>
+  <testcase name="NULL / REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.012"/>
+  <testcase name="NULL / OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NULL / NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="NULL / ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="NULL / ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NULL / DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NULL / EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NULL / BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="NULL / PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.0"/>
+  <testcase name="NULL / PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="INSUFFICIENT / REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INSUFFICIENT / OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INSUFFICIENT / NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INSUFFICIENT / ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INSUFFICIENT / ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INSUFFICIENT / DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INSUFFICIENT / EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="INSUFFICIENT / BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INSUFFICIENT / PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INSUFFICIENT / PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INVALID / REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INVALID / OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INVALID / NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INVALID / ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INVALID / ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INVALID / DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INVALID / EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INVALID / BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="INVALID / PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="INVALID / PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="missingOrInvalidAnnualContextIsNeverSilentlyAccepted()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="preferredSharesAlwaysBlockBpsAndPbrWithoutBlockingOtherMetrics()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="checksShareDateSourceAndArithmetic()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[1] code=REVENUE_GROWTH" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[2] code=OPERATING_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[3] code=NET_MARGIN" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[4] code=ROE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[5] code=ROA" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[6] code=DEBT_RATIO" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[7] code=EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[8] code=BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.0"/>
+  <testcase name="[9] code=PER" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[10] code=PBR" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[1] code=REVENUE_GROWTH, account=REVENUE, reason=NON_POSITIVE_PREVIOUS_REVENUE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <testcase name="[2] code=OPERATING_MARGIN, account=REVENUE, reason=NON_POSITIVE_REVENUE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[3] code=NET_MARGIN, account=REVENUE, reason=NON_POSITIVE_REVENUE" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[4] code=ROE, account=PARENT_EQUITY, reason=NON_POSITIVE_PARENT_EQUITY" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[5] code=ROA, account=TOTAL_ASSETS, reason=NON_POSITIVE_ASSETS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.005"/>
+  <testcase name="[6] code=DEBT_RATIO, account=TOTAL_EQUITY, reason=NON_POSITIVE_EQUITY" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.004"/>
+  <testcase name="[7] code=PER, account=BASIC_EPS, reason=NON_POSITIVE_EPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[8] code=PBR, account=PARENT_EQUITY, reason=NON_POSITIVE_BPS" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.002"/>
+  <testcase name="[1] value=0" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="[2] value=-1" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.001"/>
+  <testcase name="growthNeverSkipsAMissingYearAndBasisChangeDoesNotBlockOtherMetrics()" classname="com.stockinsight.service.FinancialMetricCalculatorTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

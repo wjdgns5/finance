@@ -1,0 +1,1011 @@
+openapi: 3.0.1
+info:
+  title: Stock Insight API
+  description: |
+    국내 상장사의 연간 재무·투자지표를 조회하는 로컬 API입니다.
+
+    **현재 데이터 모드: MOCK**. MOCK은 가상 기업·수치이며 REAL 실패를 가상값으로 대체하지 않습니다.
+    MOCK은 조회 API 5개, REAL은 갱신·원본 조회를 포함한 7개가 표시됩니다.
+
+    - 성공·오류 모두 `data`, `meta`, `error` 구조를 사용합니다.
+    - 금액·지표·주식수는 **JSON 문자열**, N/A는 `null`과 상태·사유로 전달합니다.
+    - GET도 REAL 최초 조회 시 외부 수집·DB 저장이 발생할 수 있습니다.
+    - `POST sync`는 재무·시세를 갱신합니다. HTTP 200이어도 각 `outcomes`를 확인하세요.
+    - DART·FSC 키는 서버에서 설정합니다. 이 화면에 인증키를 입력할 필요가 없습니다.
+    - 재무 기간·연결/별도·공시 접수번호·시세 기준일을 함께 확인하세요.
+  version: 0.6.0
+servers:
+- url: /
+  description: 현재 Swagger 화면의 백엔드
+tags:
+- name: 기업·재무
+  description: 기업 검색·기본정보·연간 재무 조회
+- name: 투자지표
+  description: BigDecimal 기반 최신 지표와 연도별 이익률
+paths:
+  /api/v1/companies:
+    get:
+      tags:
+      - 기업·재무
+      summary: 기업 검색
+      description: 기업명 또는 종목코드 포함 검색. 결과 없음은 200과 빈 배열입니다. REAL은 필요한 기업 정보를 수집할 수
+        있습니다.
+      operationId: searchCompanies
+      parameters:
+      - name: query
+        in: query
+        description: "앞뒤 공백을 제외한 기업명 또는 종목코드. %, _, !는 문자로 검색합니다."
+        required: true
+        schema:
+          maxLength: 100
+          minLength: 0
+          type: string
+        example: 한빛
+      - name: limit
+        in: query
+        description: 최대 검색 결과 개수
+        required: false
+        schema:
+          maximum: 50
+          minimum: 1
+          type: integer
+          format: int32
+          default: 20
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EnvelopeListCompanySummary"
+        "400":
+          $ref: "#/components/responses/InvalidRequest"
+        "403":
+          $ref: "#/components/responses/LocalRequestRequired"
+        "405":
+          $ref: "#/components/responses/MethodNotAllowed"
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "502":
+          $ref: "#/components/responses/ProviderFailure"
+        "503":
+          $ref: "#/components/responses/ProviderUnavailable"
+        "504":
+          $ref: "#/components/responses/ProviderTimeout"
+  /api/v1/companies/{stockCode}:
+    get:
+      tags:
+      - 기업·재무
+      summary: 기업 기본정보·시세 조회
+      description: 업종·결산월·우선주 확인 상태와 확보한 보통주 종가·시가총액을 제공합니다. 시세가 없으면 null과 상태·사유로
+        표시합니다.
+      operationId: getCompany
+      parameters:
+      - name: stockCode
+        in: path
+        description: 선행 0을 유지한 6자리 종목코드
+        required: true
+        schema:
+          pattern: "[0-9]{6}"
+          type: string
+        example: "990001"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EnvelopeCompanyDetail"
+        "400":
+          $ref: "#/components/responses/InvalidRequest"
+        "403":
+          $ref: "#/components/responses/LocalRequestRequired"
+        "405":
+          $ref: "#/components/responses/MethodNotAllowed"
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "502":
+          $ref: "#/components/responses/ProviderFailure"
+        "503":
+          $ref: "#/components/responses/ProviderUnavailable"
+        "504":
+          $ref: "#/components/responses/ProviderTimeout"
+  /api/v1/companies/{stockCode}/metrics:
+    get:
+      tags:
+      - 투자지표
+      summary: 최신 연간 투자지표 10개
+      description: 매출 증가율·영업/순이익률·ROE·ROA·부채비율·EPS·BPS·PER·PBR. 값은 문자열이며 N/A는 null과
+        status/reasonCode/reason입니다. ROE·ROA는 기말 기준이며 재무 연도와 시세 기준일은 다를 수 있습니다.
+      operationId: getMetrics
+      parameters:
+      - name: stockCode
+        in: path
+        description: 선행 0을 유지한 6자리 종목코드
+        required: true
+        schema:
+          pattern: "\\d{6}"
+          type: string
+        example: "990001"
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EnvelopeMetrics"
+        "400":
+          $ref: "#/components/responses/InvalidRequest"
+        "403":
+          $ref: "#/components/responses/LocalRequestRequired"
+        "405":
+          $ref: "#/components/responses/MethodNotAllowed"
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "422":
+          $ref: "#/components/responses/UnsupportedIndustry"
+        "502":
+          $ref: "#/components/responses/ProviderFailure"
+        "503":
+          $ref: "#/components/responses/ProviderUnavailable"
+        "504":
+          $ref: "#/components/responses/ProviderTimeout"
+  /api/v1/companies/{stockCode}/metrics/profitability:
+    get:
+      tags:
+      - 투자지표
+      summary: 연도별 영업·순이익률
+      description: 확보한 각 연도의 이익률을 동일 계산 엔진으로 제공합니다. financialPeriods의 연도·CFS/OFS·접수번호·기간을
+        재무 응답과 맞춰 사용하세요. 과거 PER·PBR은 생성하지 않습니다.
+      operationId: getProfitability
+      parameters:
+      - name: stockCode
+        in: path
+        description: 선행 0을 유지한 6자리 종목코드
+        required: true
+        schema:
+          pattern: "[0-9]{6}"
+          type: string
+        example: "990001"
+      - name: years
+        in: query
+        description: 최신 확보 연도부터 반환할 최대 연도 개수
+        required: false
+        schema:
+          maximum: 5
+          minimum: 1
+          type: integer
+          format: int32
+          default: 5
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EnvelopeProfitabilityHistory"
+        "400":
+          $ref: "#/components/responses/InvalidRequest"
+        "403":
+          $ref: "#/components/responses/LocalRequestRequired"
+        "405":
+          $ref: "#/components/responses/MethodNotAllowed"
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "422":
+          $ref: "#/components/responses/UnsupportedIndustry"
+        "502":
+          $ref: "#/components/responses/ProviderFailure"
+        "503":
+          $ref: "#/components/responses/ProviderUnavailable"
+        "504":
+          $ref: "#/components/responses/ProviderTimeout"
+  /api/v1/companies/{stockCode}/financials:
+    get:
+      tags:
+      - 기업·재무
+      summary: 연간 재무 조회
+      description: 최대 5개년 연간 사업보고서(11011). 같은 연도는 CFS 우선·자료 없음 시 OFS입니다. 빠진 연도를 0이나
+        오래된 값으로 채우지 않습니다. REAL 최초 조회는 외부 수집을 포함할 수 있습니다.
+      operationId: getFinancials
+      parameters:
+      - name: stockCode
+        in: path
+        description: 선행 0을 유지한 6자리 종목코드
+        required: true
+        schema:
+          pattern: "[0-9]{6}"
+          type: string
+        example: "990001"
+      - name: years
+        in: query
+        description: 최신 확보 연도부터 반환할 최대 연도 개수. 연속된 연도라는 보장은 없습니다.
+        required: false
+        schema:
+          maximum: 5
+          minimum: 1
+          type: integer
+          format: int32
+          default: 5
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EnvelopeFinancials"
+        "400":
+          $ref: "#/components/responses/InvalidRequest"
+        "403":
+          $ref: "#/components/responses/LocalRequestRequired"
+        "405":
+          $ref: "#/components/responses/MethodNotAllowed"
+        "500":
+          $ref: "#/components/responses/InternalError"
+        "404":
+          $ref: "#/components/responses/NotFound"
+        "422":
+          $ref: "#/components/responses/UnsupportedIndustry"
+        "502":
+          $ref: "#/components/responses/ProviderFailure"
+        "503":
+          $ref: "#/components/responses/ProviderUnavailable"
+        "504":
+          $ref: "#/components/responses/ProviderTimeout"
+components:
+  schemas:
+    CompanySummary:
+      type: object
+      properties:
+        stockCode:
+          pattern: "^[0-9]{6}$"
+          type: string
+          description: 6자리 문자열. 선행 0 유지
+        name:
+          type: string
+        market:
+          type: string
+          enum:
+          - KOSPI
+          - KOSDAQ
+          - KONEX
+        supported:
+          type: boolean
+      nullable: true
+    EnvelopeListCompanySummary:
+      required:
+      - data
+      - error
+      - meta
+      type: object
+      properties:
+        data:
+          type: array
+          nullable: true
+          items:
+            $ref: "#/components/schemas/CompanySummary"
+        meta:
+          $ref: "#/components/schemas/Meta"
+        error:
+          $ref: "#/components/schemas/ErrorDetail"
+      description: "공통 응답. 성공 시 error=null, 오류 시 data=null입니다."
+    ErrorDetail:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+        fields:
+          type: array
+          items:
+            $ref: "#/components/schemas/FieldError"
+      nullable: true
+    FieldError:
+      type: object
+      properties:
+        field:
+          type: string
+        message:
+          type: string
+    Meta:
+      type: object
+      properties:
+        mode:
+          type: string
+          enum:
+          - MOCK
+          - REAL
+        sources:
+          type: array
+          items:
+            type: string
+            enum:
+            - MOCK
+            - DART
+            - KRX
+            - FSC
+        collectedAt:
+          type: string
+          description: 응답을 구성한 자료의 최대 수집 시각. 오류에서는 null
+          format: date-time
+          nullable: true
+        financialPeriods:
+          type: array
+          items:
+            $ref: "#/components/schemas/StatementMeta"
+        market:
+          $ref: "#/components/schemas/PriceMeta"
+        stale:
+          type: boolean
+          description: 재무 또는 시세 최신 수집 이력에 실패가 있는지 여부. false가 최신성을 보장하지 않음
+      description: 모드·출처·공시 기간·시세 기준일. 수집 시각은 UTC입니다.
+    PriceMeta:
+      type: object
+      properties:
+        closePriceAsOf:
+          type: string
+          format: date
+        closePriceSource:
+          type: string
+          enum:
+          - MOCK
+          - DART
+          - KRX
+          - FSC
+        marketCapAsOf:
+          type: string
+          format: date
+        marketCapSource:
+          type: string
+          enum:
+          - MOCK
+          - DART
+          - KRX
+          - FSC
+        collectedAt:
+          type: string
+          format: date-time
+        scope:
+          type: string
+      description: 시세가 없으면 null
+      nullable: true
+    StatementMeta:
+      type: object
+      properties:
+        fiscalYear:
+          type: integer
+          format: int32
+        reportCode:
+          type: string
+          example: "11011"
+        basis:
+          type: string
+          enum:
+          - CFS
+          - OFS
+        receiptNo:
+          type: string
+        filedAt:
+          type: string
+          format: date
+        periodStart:
+          type: string
+          format: date
+        periodEnd:
+          type: string
+          format: date
+        source:
+          type: string
+          enum:
+          - MOCK
+          - DART
+          - KRX
+          - FSC
+        collectedAt:
+          type: string
+          format: date-time
+      description: 실제 공시 기간·접수번호·연결/별도 기준. 서로 다른 응답의 기준을 맞출 때 사용합니다.
+    CompanyDetail:
+      type: object
+      properties:
+        stockCode:
+          type: string
+        corpCode:
+          type: string
+        name:
+          type: string
+        market:
+          type: string
+          enum:
+          - KOSPI
+          - KOSDAQ
+          - KONEX
+        industryCode:
+          type: string
+        industryName:
+          type: string
+        fiscalMonth:
+          type: integer
+          format: int32
+        hasPreferredShares:
+          type: boolean
+          description: true 발행 / false 미발행 확인 / null 미확인
+          nullable: true
+        supported:
+          type: boolean
+        price:
+          $ref: "#/components/schemas/PriceValue"
+      nullable: true
+    EnvelopeCompanyDetail:
+      required:
+      - data
+      - error
+      - meta
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/CompanyDetail"
+        meta:
+          $ref: "#/components/schemas/Meta"
+        error:
+          $ref: "#/components/schemas/ErrorDetail"
+      description: "공통 응답. 성공 시 error=null, 오류 시 data=null입니다."
+    PriceValue:
+      type: object
+      properties:
+        closePrice:
+          type: string
+          description: 원 단위 종가. 시세가 없으면 null
+          nullable: true
+          example: "32000.0"
+        marketCap:
+          type: string
+          description: "보통주 종목 범위 시가총액, 원 단위"
+          nullable: true
+          example: 3.04E11
+        currency:
+          type: string
+        status:
+          type: string
+          enum:
+          - AVAILABLE
+          - NOT_COLLECTED
+          - NOT_APPLICABLE
+          - UNSUPPORTED
+        reason:
+          type: string
+    EnvelopeMetrics:
+      required:
+      - data
+      - error
+      - meta
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Metrics"
+        meta:
+          $ref: "#/components/schemas/Meta"
+        error:
+          $ref: "#/components/schemas/ErrorDetail"
+      description: "공통 응답. 성공 시 error=null, 오류 시 data=null입니다."
+    MetricValue:
+      type: object
+      properties:
+        code:
+          type: string
+          enum:
+          - REVENUE_GROWTH
+          - OPERATING_MARGIN
+          - NET_MARGIN
+          - ROE
+          - ROA
+          - DEBT_RATIO
+          - EPS
+          - BPS
+          - PER
+          - PBR
+        label:
+          type: string
+        value:
+          type: string
+          description: 계산 결과 문자열. PERCENT의 15는 15%. N/A는 null
+          nullable: true
+          example: "10.0"
+        unit:
+          type: string
+          enum:
+          - PERCENT
+          - KRW_PER_SHARE
+          - TIMES
+        status:
+          type: string
+          enum:
+          - AVAILABLE
+          - NOT_COLLECTED
+          - NOT_APPLICABLE
+          - UNSUPPORTED
+        reasonCode:
+          type: string
+          nullable: true
+          enum:
+          - MISSING_ACCOUNT
+          - ACCOUNT_NOT_AVAILABLE
+          - INVALID_ACCOUNT_UNIT
+          - INVALID_ACCOUNT_VALUE
+          - DUPLICATE_ACCOUNT
+          - MISSING_PREVIOUS_YEAR
+          - BASIS_MISMATCH
+          - INVALID_PERIOD
+          - MISSING_METADATA
+          - INVALID_CURRENCY
+          - NON_POSITIVE_PREVIOUS_REVENUE
+          - NON_POSITIVE_REVENUE
+          - NON_POSITIVE_PARENT_EQUITY
+          - NON_POSITIVE_ASSETS
+          - NON_POSITIVE_EQUITY
+          - NON_POSITIVE_EPS
+          - NON_POSITIVE_BPS
+          - PREFERRED_SHARES
+          - UNKNOWN_PREFERRED_SHARES
+          - MISSING_SHARES
+          - INVALID_SHARES
+          - SHARE_DATE_MISMATCH
+          - MISSING_PRICE
+          - INVALID_PRICE
+        reason:
+          type: string
+          nullable: true
+        formula:
+          type: string
+        usedAccounts:
+          type: array
+          items:
+            type: string
+            enum:
+            - REVENUE
+            - OPERATING_PROFIT
+            - NET_INCOME
+            - PARENT_NET_INCOME
+            - TOTAL_ASSETS
+            - TOTAL_LIABILITIES
+            - TOTAL_EQUITY
+            - PARENT_EQUITY
+            - OPERATING_CASH_FLOW
+            - INVESTING_CASH_FLOW
+            - FINANCING_CASH_FLOW
+            - BASIC_EPS
+        explanation:
+          type: string
+        naConditions:
+          type: string
+        basisNote:
+          type: string
+        priceAsOf:
+          type: string
+          description: PER·PBR의 종가 기준일. 다른 지표는 null
+          format: date
+          nullable: true
+    Metrics:
+      type: object
+      properties:
+        company:
+          $ref: "#/components/schemas/CompanySummary"
+        status:
+          type: string
+          enum:
+          - AVAILABLE
+          - NOT_COLLECTED
+          - NOT_APPLICABLE
+          - UNSUPPORTED
+        reason:
+          type: string
+          nullable: true
+        fiscalYear:
+          type: integer
+          format: int32
+          nullable: true
+        basis:
+          type: string
+          nullable: true
+          enum:
+          - CFS
+          - OFS
+        currency:
+          type: string
+          nullable: true
+        shares:
+          $ref: "#/components/schemas/ShareDisclosure"
+        priceNote:
+          type: string
+        metrics:
+          type: array
+          items:
+            $ref: "#/components/schemas/MetricValue"
+      description: "최신 확보 연간 지표. 자료가 없으면 fiscalYear=null, metrics=[]입니다."
+      nullable: true
+    ShareDisclosure:
+      type: object
+      properties:
+        issuedCommonShares:
+          type: string
+          description: 발행보통주식수
+          nullable: true
+          example: "10000000"
+        treasuryCommonShares:
+          type: string
+          description: 자기주식 중 보통주식수
+          nullable: true
+          example: "500000"
+        outstandingCommonShares:
+          type: string
+          description: 자기주식 제외 유통보통주식수. 임의 역산하지 않음
+          nullable: true
+          example: "9500000"
+        preferredShares:
+          type: string
+          description: 공시에서 확인한 우선주식수. null은 미확인
+          nullable: true
+          example: "0"
+        asOf:
+          type: string
+          description: 주식수 기준일. BPS는 재무 결산일과 일치해야 함
+          format: date
+          nullable: true
+        receiptNo:
+          type: string
+          nullable: true
+      nullable: true
+    EnvelopeProfitabilityHistory:
+      required:
+      - data
+      - error
+      - meta
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/ProfitabilityHistory"
+        meta:
+          $ref: "#/components/schemas/Meta"
+        error:
+          $ref: "#/components/schemas/ErrorDetail"
+      description: "공통 응답. 성공 시 error=null, 오류 시 data=null입니다."
+    ProfitabilityHistory:
+      type: object
+      properties:
+        company:
+          $ref: "#/components/schemas/CompanySummary"
+        status:
+          type: string
+          enum:
+          - AVAILABLE
+          - NOT_COLLECTED
+          - NOT_APPLICABLE
+          - UNSUPPORTED
+        reason:
+          type: string
+        years:
+          type: array
+          items:
+            $ref: "#/components/schemas/ProfitabilityYear"
+      nullable: true
+    ProfitabilityYear:
+      type: object
+      properties:
+        fiscalYear:
+          type: integer
+          format: int32
+        basis:
+          type: string
+          enum:
+          - CFS
+          - OFS
+        metrics:
+          type: array
+          items:
+            $ref: "#/components/schemas/MetricValue"
+    AccountValue:
+      type: object
+      properties:
+        code:
+          type: string
+          enum:
+          - REVENUE
+          - OPERATING_PROFIT
+          - NET_INCOME
+          - PARENT_NET_INCOME
+          - TOTAL_ASSETS
+          - TOTAL_LIABILITIES
+          - TOTAL_EQUITY
+          - PARENT_EQUITY
+          - OPERATING_CASH_FLOW
+          - INVESTING_CASH_FLOW
+          - FINANCING_CASH_FLOW
+          - BASIC_EPS
+        label:
+          type: string
+        value:
+          type: string
+          description: 원 단위 금액 또는 공시 EPS 문자열. N/A는 null이며 실제 0·음수와 구분
+          nullable: true
+          example: 1.8E11
+        unit:
+          type: string
+          enum:
+          - KRW
+          - KRW_PER_SHARE
+        status:
+          type: string
+          enum:
+          - AVAILABLE
+          - NOT_COLLECTED
+          - NOT_APPLICABLE
+          - UNSUPPORTED
+        reason:
+          type: string
+          nullable: true
+        original:
+          $ref: "#/components/schemas/OriginalAccount"
+    EnvelopeFinancials:
+      required:
+      - data
+      - error
+      - meta
+      type: object
+      properties:
+        data:
+          $ref: "#/components/schemas/Financials"
+        meta:
+          $ref: "#/components/schemas/Meta"
+        error:
+          $ref: "#/components/schemas/ErrorDetail"
+      description: "공통 응답. 성공 시 error=null, 오류 시 data=null입니다."
+    FinancialYear:
+      type: object
+      properties:
+        fiscalYear:
+          type: integer
+          format: int32
+        basis:
+          type: string
+          enum:
+          - CFS
+          - OFS
+        currency:
+          type: string
+        accounts:
+          type: array
+          items:
+            $ref: "#/components/schemas/AccountValue"
+        shares:
+          $ref: "#/components/schemas/ShareDisclosure"
+        normalizationWarnings:
+          type: array
+          items:
+            type: string
+    Financials:
+      type: object
+      properties:
+        company:
+          $ref: "#/components/schemas/CompanySummary"
+        status:
+          type: string
+          enum:
+          - AVAILABLE
+          - NOT_COLLECTED
+          - NOT_APPLICABLE
+          - UNSUPPORTED
+        reason:
+          type: string
+          nullable: true
+        years:
+          type: array
+          items:
+            $ref: "#/components/schemas/FinancialYear"
+      description: 연간 재무. 자료가 없으면 NOT_COLLECTED와 빈 years를 반환할 수 있습니다.
+      nullable: true
+    OriginalAccount:
+      type: object
+      properties:
+        accountId:
+          type: string
+        accountName:
+          type: string
+        accountDetail:
+          type: string
+        amount:
+          type: string
+    ErrorEnvelope:
+      required:
+      - data
+      - error
+      - meta
+      type: object
+      properties:
+        data:
+          type: object
+          description: 오류 응답에서는 항상 null
+          nullable: true
+        meta:
+          $ref: "#/components/schemas/Meta"
+        error:
+          $ref: "#/components/schemas/ErrorDetail"
+      description: 공통 오류 응답. data는 null이며 mode와 정제된 오류만 제공합니다.
+  responses:
+    InvalidRequest:
+      description: 입력 누락·형식·범위 위반
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 입력 누락·형식·범위 위반
+              fields: []
+              code: INVALID_REQUEST
+    LocalRequestRequired:
+      description: 로컬 Host·Origin 요청만 허용합니다.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 로컬 Host·Origin 요청만 허용합니다.
+              fields: []
+              code: LOCAL_REQUEST_REQUIRED
+    MethodNotAllowed:
+      description: 지원하지 않는 HTTP 메서드
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 지원하지 않는 HTTP 메서드
+              fields: []
+              code: METHOD_NOT_ALLOWED
+    NotFound:
+      description: 기업 또는 저장된 원본이 없습니다. SOURCE_NOT_FOUND도 반환할 수 있습니다.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 기업 또는 저장된 원본이 없습니다. SOURCE_NOT_FOUND도 반환할 수 있습니다.
+              fields: []
+              code: COMPANY_NOT_FOUND
+    UnsupportedIndustry:
+      description: 금융업 재무·지표를 지원하지 않습니다.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 금융업 재무·지표를 지원하지 않습니다.
+              fields: []
+              code: UNSUPPORTED_INDUSTRY
+    InternalError:
+      description: 내부 오류. 원인 예외·DB 주소는 공개하지 않습니다.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 내부 오류. 원인 예외·DB 주소는 공개하지 않습니다.
+              fields: []
+              code: INTERNAL_ERROR
+    ProviderFailure:
+      description: 외부 응답·연결·정정 공시 불일치 등. 기존 자료가 있으면 보존합니다.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 외부 응답·연결·정정 공시 불일치 등. 기존 자료가 있으면 보존합니다.
+              fields: []
+              code: PROVIDER_CONNECTION_ERROR
+    ProviderUnavailable:
+      description: 서버 키 누락·인증·호출 제한 또는 외부 요청 중단
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 서버 키 누락·인증·호출 제한 또는 외부 요청 중단
+              fields: []
+              code: DART_KEY_MISSING
+    ProviderTimeout:
+      description: 외부 요청 시간이 초과되었습니다.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+          example:
+            data: null
+            meta:
+              mode: MOCK
+              sources: []
+              collectedAt: null
+              financialPeriods: []
+              market: null
+              stale: false
+            error:
+              message: 외부 요청 시간이 초과되었습니다.
+              fields: []
+              code: PROVIDER_TIMEOUT

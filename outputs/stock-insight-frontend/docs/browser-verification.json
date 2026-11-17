@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-11-17T01:46:18.827Z",
+  "url": "http://127.0.0.1:5174/",
+  "outcome": "PHASE_2_BROWSER_FLOW_PASSED",
+  "checks": [
+    "Initial mock company list",
+    "Company-name search and selection",
+    "Revenue 1800 eok KRW, 2025, CFS, five years",
+    "Stock-code search with Enter",
+    "Revenue tooltip by click and Enter",
+    "Disclosure metadata expansion",
+    "Unsupported industry without previous revenue card",
+    "No search results and list recovery",
+    "March fiscal close, two years, basis-change and missing price notices",
+    "Blank search input validation",
+    "390px viewport without horizontal overflow"
+  ],
+  "fixedDuringVerification": [
+    "Unsupported/error/empty financial basis label",
+    "Selected-company source preserved after empty search",
+    "Invalid-search result count label"
+  ],
+  "mobileGeometry": {
+    "viewportWidth": 390,
+    "pageWidth": 375,
+    "horizontalOverflow": false
+  },
+  "console": [],
+  "limitations": [
+    "No real DART numerical comparison",
+    "No physical mobile-device or touch testing",
+    "Offline error and deliberately delayed-response race not reproduced in browser"
+  ]
+}

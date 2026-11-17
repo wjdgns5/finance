@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.RealDataIntegrationTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-17T07:43:46" hostname="DESKTOP-TMU829P" time="1.677">
+  <properties/>
+  <testcase name="searchCollectPersistCalculateAndReuseWithSourceTrace()" classname="com.stockinsight.RealDataIntegrationTest" time="0.641"/>
+  <testcase name="failedRefreshKeepsLastGoodDataAndMarksStale()" classname="com.stockinsight.RealDataIntegrationTest" time="0.241"/>
+  <testcase name="missingQuoteOnlyBlocksPriceMetricsAndDoesNotCreateFakeSnapshot()" classname="com.stockinsight.RealDataIntegrationTest" time="0.162"/>
+  <testcase name="initialCollectionFailureIsReportedAndRetryDoesNotHammerProvider()" classname="com.stockinsight.RealDataIntegrationTest" time="0.09"/>
+  <testcase name="refreshIsIdempotentAndUpdatesWithoutDuplicateAccounts()" classname="com.stockinsight.RealDataIntegrationTest" time="0.2"/>
+  <testcase name="refreshedOfsDoesNotLeaveOlderCfsSelected()" classname="com.stockinsight.RealDataIntegrationTest" time="0.34"/>
+  <system-out><![CDATA[2026-11-17T16:43:44.812+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.stockinsight.StockInsightApplication for test class com.stockinsight.RealDataIntegrationTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-11-17T16:43:44.882+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] c.stockinsight.RealDataIntegrationTest   : Starting RealDataIntegrationTest using Java 21.0.12 with PID 28076 (started by rhfov in C:\Users\rhfov\Documents\Codex\2026-11-17\phase-0-phase-1\outputs\stock-insight-backend)
+2026-11-17T16:43:44.882+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] c.stockinsight.RealDataIntegrationTest   : The following 1 profile is active: "real"
+2026-11-17T16:43:45.261+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-17T16:43:45.302+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 4 JPA repository interfaces.
+2026-11-17T16:43:45.398+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-11-17T16:43:45.398+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-17T16:43:45.398+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-11-17T16:43:45.464+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-11-17T16:43:45.464+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 571 ms
+2026-11-17T16:43:45.514+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-11-17T16:43:45.515+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27e05d64
+2026-11-17T16:43:45.515+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-11-17T16:43:45.515+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] org.flywaydb.core.FlywayExecutor         : Database: jdbc:mysql://127.0.0.1:13376/stock_insight_phase6_it?useSSL=false&allowPublicKeyRetrieval=true&connectionTimeZone=UTC (MySQL 8.0)
+2026-11-17T16:43:45.535+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.008s)
+2026-11-17T16:43:45.548+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema `stock_insight_phase6_it`: 2
+2026-11-17T16:43:45.548+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.f.core.internal.command.DbMigrate      : Schema `stock_insight_phase6_it` is up to date. No migration necessary.
+2026-11-17T16:43:45.575+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-17T16:43:45.581+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-17T16:43:45.615+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-17T16:43:45.615+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0.46
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-17T16:43:45.732+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-17T16:43:45.736+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-17T16:43:46.041+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 50810 (http) with context path '/'
+2026-11-17T16:43:46.047+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] c.stockinsight.RealDataIntegrationTest   : Started RealDataIntegrationTest in 1.217 seconds (process running for 20.108)
+2026-11-17T16:43:46.067+09:00  INFO 28076 --- [stock-insight-backend] [1-auto-2-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-17T16:43:46.067+09:00  INFO 28076 --- [stock-insight-backend] [1-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-17T16:43:46.067+09:00  INFO 28076 --- [stock-insight-backend] [1-auto-2-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

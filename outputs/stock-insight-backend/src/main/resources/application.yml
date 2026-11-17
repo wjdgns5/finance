@@ -1,0 +1,62 @@
+spring:
+  application:
+    name: stock-insight-backend
+  profiles:
+    default: mock
+  datasource:
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:13306/stock_insight_mock?useSSL=false&allowPublicKeyRetrieval=true&connectionTimeZone=UTC}
+    username: ${DB_USERNAME:stock_insight}
+    password: ${DB_PASSWORD:local_mock_password}
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 5000
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  flyway:
+    enabled: true
+    clean-disabled: true
+  jackson:
+    time-zone: UTC
+  mvc:
+    problemdetails:
+      enabled: false
+
+server:
+  address: 127.0.0.1
+  port: ${SERVER_PORT:8080}
+  error:
+    include-message: never
+    include-stacktrace: never
+
+springdoc:
+  default-produces-media-type: application/json
+  packages-to-scan: com.stockinsight.api
+  paths-to-match: /api/v1/**
+  override-with-generic-response: false
+  api-docs:
+    version: OPENAPI_3_0
+  swagger-ui:
+    path: /swagger-ui.html
+    disable-swagger-default-url: true
+    validator-url: ""
+    try-it-out-enabled: false
+    display-request-duration: true
+    operations-sorter: alpha
+    tags-sorter: alpha
+
+
+app:
+  data-mode: ${APP_DATA_MODE:MOCK}
+  dart:
+    base-url: https://opendart.fss.or.kr/api
+    api-key: ${DART_API_KEY:}
+  fsc:
+    base-url: https://apis.data.go.kr/1160100/GetStockSecuritiesInfoService_V2
+    price-path: /getStockPriceInfo_V2
+    api-key: ${FSC_API_KEY:}

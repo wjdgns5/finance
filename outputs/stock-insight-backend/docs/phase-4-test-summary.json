@@ -1,0 +1,87 @@
+{
+  "verifiedAt": "2026-11-17T06:19:41.4282686Z",
+  "scope": "Contract fixtures, captured live DART samples, real MySQL, migration and packaged REAL/MOCK checks",
+  "liveProviderVerified": true,
+  "manualThreeCompanyVerification": false,
+  "artifact": "stock-insight-backend-0.4.1.jar",
+  "sha256": "0DACF3AC769A4FD6BF9F17610D58D4AF99381E55D3EAD8C1988B4328C9F42A31",
+  "tests": [
+    {
+      "name": "com.stockinsight.api.CompanyControllerTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.api.MetricControllerTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.MigrationUpgradeTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.MockApiIntegrationTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.provider.ExternalHttpTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.provider.LiveDartSamplesTest",
+      "tests": 68,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.provider.ProviderContractTest",
+      "tests": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.RealDataIntegrationTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.service.CompanyQueryServiceTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.service.FinancialMetricCalculatorTest",
+      "tests": 89,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "com.stockinsight.service.MetricQueryServiceTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

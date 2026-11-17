@@ -1,0 +1,1010 @@
+{
+  "verifiedAt": "2026-11-17T01:13:58.5569760Z",
+  "pageStatus": 200,
+  "frontend": "http://127.0.0.1:5173",
+  "proxyTarget": "http://127.0.0.1:18080",
+  "database": "MySQL 8.0.46",
+  "financials": {
+    "data": {
+      "company": {
+        "stockCode": "990001",
+        "name": "[가상] 한빛제조",
+        "market": "KOSPI",
+        "supported": true
+      },
+      "status": "AVAILABLE",
+      "reason": null,
+      "years": [
+        {
+          "fiscalYear": 2025,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "180000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_REVENUE",
+                "accountName": "매출액",
+                "accountDetail": "가상 예시 계정",
+                "amount": "180000000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "18000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_PROFIT",
+                "accountName": "영업이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "18000000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "12000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_NET_INCOME",
+                "accountName": "당기순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "12000000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "11000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_NET_INCOME",
+                "accountName": "지배주주 귀속 순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "11000000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "300000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_ASSETS",
+                "accountName": "자산총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "300000000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "180000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_LIABILITIES",
+                "accountName": "부채총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "180000000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "120000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_EQUITY",
+                "accountName": "자본총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "120000000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "100000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_EQUITY",
+                "accountName": "지배주주 지분",
+                "accountDetail": "가상 예시 계정",
+                "amount": "100000000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "20000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_CASH_FLOW",
+                "accountName": "영업활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "20000000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-15000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_INVESTING_CASH_FLOW",
+                "accountName": "투자활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "-15000000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "0.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_FINANCING_CASH_FLOW",
+                "accountName": "재무활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "0"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "1100.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_BASIC_EPS",
+                "accountName": "공시 기본주당이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "1100"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "10000000",
+            "treasuryCommonShares": "500000",
+            "outstandingCommonShares": "9500000",
+            "preferredShares": "0",
+            "asOf": "2025-12-31",
+            "receiptNo": "MOCK-SHARES-2025-990001"
+          }
+        },
+        {
+          "fiscalYear": 2024,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "160000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_REVENUE",
+                "accountName": "매출액",
+                "accountDetail": "가상 예시 계정",
+                "amount": "160000000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "18000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_PROFIT",
+                "accountName": "영업이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "18000000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "12000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_NET_INCOME",
+                "accountName": "당기순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "12000000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "11000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_NET_INCOME",
+                "accountName": "지배주주 귀속 순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "11000000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "300000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_ASSETS",
+                "accountName": "자산총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "300000000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "180000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_LIABILITIES",
+                "accountName": "부채총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "180000000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "120000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_EQUITY",
+                "accountName": "자본총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "120000000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "100000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_EQUITY",
+                "accountName": "지배주주 지분",
+                "accountDetail": "가상 예시 계정",
+                "amount": "100000000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "20000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_CASH_FLOW",
+                "accountName": "영업활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "20000000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-15000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_INVESTING_CASH_FLOW",
+                "accountName": "투자활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "-15000000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "0.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_FINANCING_CASH_FLOW",
+                "accountName": "재무활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "0"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "1100.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_BASIC_EPS",
+                "accountName": "공시 기본주당이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "1100"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "10000000",
+            "treasuryCommonShares": "500000",
+            "outstandingCommonShares": "9500000",
+            "preferredShares": "0",
+            "asOf": "2024-12-31",
+            "receiptNo": "MOCK-SHARES-2024-990001"
+          }
+        },
+        {
+          "fiscalYear": 2023,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "140000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_REVENUE",
+                "accountName": "매출액",
+                "accountDetail": "가상 예시 계정",
+                "amount": "140000000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "18000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_PROFIT",
+                "accountName": "영업이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "18000000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "12000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_NET_INCOME",
+                "accountName": "당기순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "12000000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "11000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_NET_INCOME",
+                "accountName": "지배주주 귀속 순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "11000000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "300000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_ASSETS",
+                "accountName": "자산총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "300000000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "180000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_LIABILITIES",
+                "accountName": "부채총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "180000000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "120000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_EQUITY",
+                "accountName": "자본총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "120000000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "100000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_EQUITY",
+                "accountName": "지배주주 지분",
+                "accountDetail": "가상 예시 계정",
+                "amount": "100000000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "20000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_CASH_FLOW",
+                "accountName": "영업활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "20000000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-15000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_INVESTING_CASH_FLOW",
+                "accountName": "투자활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "-15000000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "0.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_FINANCING_CASH_FLOW",
+                "accountName": "재무활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "0"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "1100.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_BASIC_EPS",
+                "accountName": "공시 기본주당이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "1100"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "10000000",
+            "treasuryCommonShares": "500000",
+            "outstandingCommonShares": "9500000",
+            "preferredShares": "0",
+            "asOf": "2023-12-31",
+            "receiptNo": "MOCK-SHARES-2023-990001"
+          }
+        },
+        {
+          "fiscalYear": 2022,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "120000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_REVENUE",
+                "accountName": "매출액",
+                "accountDetail": "가상 예시 계정",
+                "amount": "120000000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "18000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_PROFIT",
+                "accountName": "영업이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "18000000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "12000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_NET_INCOME",
+                "accountName": "당기순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "12000000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "11000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_NET_INCOME",
+                "accountName": "지배주주 귀속 순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "11000000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "300000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_ASSETS",
+                "accountName": "자산총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "300000000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "180000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_LIABILITIES",
+                "accountName": "부채총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "180000000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "120000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_EQUITY",
+                "accountName": "자본총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "120000000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "100000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_EQUITY",
+                "accountName": "지배주주 지분",
+                "accountDetail": "가상 예시 계정",
+                "amount": "100000000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "20000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_CASH_FLOW",
+                "accountName": "영업활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "20000000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-15000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_INVESTING_CASH_FLOW",
+                "accountName": "투자활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "-15000000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "0.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_FINANCING_CASH_FLOW",
+                "accountName": "재무활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "0"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "1100.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_BASIC_EPS",
+                "accountName": "공시 기본주당이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "1100"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "10000000",
+            "treasuryCommonShares": "500000",
+            "outstandingCommonShares": "9500000",
+            "preferredShares": "0",
+            "asOf": "2022-12-31",
+            "receiptNo": "MOCK-SHARES-2022-990001"
+          }
+        },
+        {
+          "fiscalYear": 2021,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "100000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_REVENUE",
+                "accountName": "매출액",
+                "accountDetail": "가상 예시 계정",
+                "amount": "100000000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "18000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_PROFIT",
+                "accountName": "영업이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "18000000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "12000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_NET_INCOME",
+                "accountName": "당기순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "12000000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "11000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_NET_INCOME",
+                "accountName": "지배주주 귀속 순이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "11000000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "300000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_ASSETS",
+                "accountName": "자산총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "300000000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "180000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_LIABILITIES",
+                "accountName": "부채총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "180000000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "120000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_TOTAL_EQUITY",
+                "accountName": "자본총계",
+                "accountDetail": "가상 예시 계정",
+                "amount": "120000000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "100000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_PARENT_EQUITY",
+                "accountName": "지배주주 지분",
+                "accountDetail": "가상 예시 계정",
+                "amount": "100000000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "20000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_OPERATING_CASH_FLOW",
+                "accountName": "영업활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "20000000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-15000000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_INVESTING_CASH_FLOW",
+                "accountName": "투자활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "-15000000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "0.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_FINANCING_CASH_FLOW",
+                "accountName": "재무활동 현금흐름",
+                "accountDetail": "가상 예시 계정",
+                "amount": "0"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "1100.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "MOCK_BASIC_EPS",
+                "accountName": "공시 기본주당이익",
+                "accountDetail": "가상 예시 계정",
+                "amount": "1100"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "10000000",
+            "treasuryCommonShares": "500000",
+            "outstandingCommonShares": "9500000",
+            "preferredShares": "0",
+            "asOf": "2021-12-31",
+            "receiptNo": "MOCK-SHARES-2021-990001"
+          }
+        }
+      ]
+    },
+    "meta": {
+      "mode": "MOCK",
+      "sources": [
+        "MOCK"
+      ],
+      "collectedAt": "2026-11-17T00:43:06.441139Z",
+      "financialPeriods": [
+        {
+          "fiscalYear": 2025,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "MOCK-990001-2025-CFS",
+          "filedAt": "2026-03-20",
+          "periodStart": "2025-01-01",
+          "periodEnd": "2025-12-31",
+          "source": "MOCK",
+          "collectedAt": "2026-11-17T00:43:06.315763Z"
+        },
+        {
+          "fiscalYear": 2024,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "MOCK-990001-2024-CFS",
+          "filedAt": "2025-03-20",
+          "periodStart": "2024-01-01",
+          "periodEnd": "2024-12-31",
+          "source": "MOCK",
+          "collectedAt": "2026-11-17T00:43:06.315763Z"
+        },
+        {
+          "fiscalYear": 2023,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "MOCK-990001-2023-CFS",
+          "filedAt": "2024-03-20",
+          "periodStart": "2023-01-01",
+          "periodEnd": "2023-12-31",
+          "source": "MOCK",
+          "collectedAt": "2026-11-17T00:43:06.315763Z"
+        },
+        {
+          "fiscalYear": 2022,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "MOCK-990001-2022-CFS",
+          "filedAt": "2023-03-20",
+          "periodStart": "2022-01-01",
+          "periodEnd": "2022-12-31",
+          "source": "MOCK",
+          "collectedAt": "2026-11-17T00:43:06.315763Z"
+        },
+        {
+          "fiscalYear": 2021,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "MOCK-990001-2021-CFS",
+          "filedAt": "2022-03-20",
+          "periodStart": "2021-01-01",
+          "periodEnd": "2021-12-31",
+          "source": "MOCK",
+          "collectedAt": "2026-11-17T00:43:06.315763Z"
+        }
+      ],
+      "market": {
+        "closePriceAsOf": "2026-11-16",
+        "closePriceSource": "MOCK",
+        "marketCapAsOf": "2026-11-16",
+        "marketCapSource": "MOCK",
+        "collectedAt": "2026-11-17T00:43:06.441139Z",
+        "scope": "COMMON_STOCK"
+      },
+      "stale": false
+    },
+    "error": null
+  }
+}

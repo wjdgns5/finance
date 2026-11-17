@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-11-17T06:17:52.1197317Z",
+  "corpCode": "00126380",
+  "year": 2025,
+  "results": [
+    {
+      "group": "M210000",
+      "httpStatus": 200,
+      "status": "000",
+      "count": 15,
+      "perShareRows": []
+    },
+    {
+      "group": "M220000",
+      "httpStatus": 200,
+      "status": "000",
+      "count": 22,
+      "perShareRows": []
+    },
+    {
+      "group": "M230000",
+      "httpStatus": 200,
+      "status": "000",
+      "count": 18,
+      "perShareRows": []
+    },
+    {
+      "group": "M240000",
+      "httpStatus": 200,
+      "status": "000",
+      "count": 11,
+      "perShareRows": []
+    }
+  ]
+}

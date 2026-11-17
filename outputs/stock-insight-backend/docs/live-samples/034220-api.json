@@ -1,0 +1,1804 @@
+{
+  "verifiedAt": "2026-11-17T06:01:34.0564165Z",
+  "financials": {
+    "data": {
+      "company": {
+        "stockCode": "034220",
+        "name": "엘지디스플레이(주)",
+        "market": "KOSPI",
+        "supported": true
+      },
+      "status": "AVAILABLE",
+      "reason": null,
+      "years": [
+        {
+          "fiscalYear": 2025,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "25810082000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Revenue",
+                "accountName": "매출",
+                "accountDetail": "-",
+                "amount": "25810082000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "516977000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "dart_OperatingIncomeLoss",
+                "accountName": "영업이익(손실)",
+                "accountDetail": "-",
+                "amount": "516977000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "303807000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLoss",
+                "accountName": "당기순이익(손실)",
+                "accountDetail": "-",
+                "amount": "303807000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "226312000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLossAttributableToOwnersOfParent",
+                "accountName": "지배기업 소유주지분",
+                "accountDetail": "-",
+                "amount": "226312000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "26916700000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Assets",
+                "accountName": "자산총계",
+                "accountDetail": "-",
+                "amount": "26916700000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "19077462000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Liabilities",
+                "accountName": "부채총계",
+                "accountDetail": "-",
+                "amount": "19077462000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "7839238000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Equity",
+                "accountName": "자본총계",
+                "accountDetail": "-",
+                "amount": "7839238000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "6604124000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_EquityAttributableToOwnersOfParent",
+                "accountName": "지배기업의 소유주에게 귀속되는 자본",
+                "accountDetail": "-",
+                "amount": "6604124000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "2352083000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+                "accountName": "영업활동현금흐름",
+                "accountDetail": "-",
+                "amount": "2352083000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-978619000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInInvestingActivities",
+                "accountName": "투자활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-978619000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "-1963387000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInFinancingActivities",
+                "accountName": "재무활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-1963387000000"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "453.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_BasicEarningsLossPerShare",
+                "accountName": "기본주당이익(손실)",
+                "accountDetail": "-",
+                "amount": "453"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "500000000",
+            "treasuryCommonShares": null,
+            "outstandingCommonShares": "500000000",
+            "preferredShares": "0",
+            "asOf": "2025-12-31",
+            "receiptNo": "20260311003822"
+          },
+          "normalizationWarnings": [
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentAssets:유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CashAndCashEquivalents:현금및현금성자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxAssets:선급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTradeReceivables:매출채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_Inventories:재고자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners:매각예정분류자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentAssets:기타유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialAssets:기타금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentReceivables:기타채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssets:비유동자산",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IntangibleAssetsAndGoodwill:무형자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentAccountedForUsingEquityMethod:지분법적용투자주식",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentProperty:투자부동산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NetDeferredTaxAssets:이연법인세자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan:종업원급여자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentAssets:기타비유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialAssets:기타비유동금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_PropertyPlantAndEquipment:유형자산",
+            "UNMAPPED_ACCOUNT:BS:dart_CapitalSurplus:자본잉여금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSale:매각예정분류 기타포괄손익누계액",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IssuedCapital:자본금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherReserves:기타자본",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_RetainedEarnings:이익잉여금(결손금)",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_EquityAndLiabilities:자본과부채총계",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentLiabilities:유동부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAdvancesCustomers:선수금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherPayables:미지급금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_AccrualsClassifiedAsCurrent:미지급비용",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentFinancialLiabilities:금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxLiabilities:미지급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale:매각예정분류부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentLiabilities:기타유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherShorttermProvisions:충당부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers:매입채무",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentLiabilities:비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NetDeferredTaxLiabilities:이연법인세부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAdvances:장기선수금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentFinancialLiabilities:비유동금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan:순확정급여부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherLongtermProvisions:비유동충당부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentLiabilities:기타비유동부채",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherGains:기타영업외수익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherLosses:기타영업외비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncome:총포괄이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent:지배기업 소유주지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_CostOfSales:매출원가",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_DilutedEarningsLossPerShare:희석주당이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GeneralAndAdministrativeExpense:관리비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GrossProfit:매출총이익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_IncomeTaxExpenseContinuingOperations:법인세수익(비용)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncome:기타포괄손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax:후속기간에당기손익으로재분류되는항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax:해외사업환산손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax:관계기업의 기타포괄손익에 대한",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax:후속기간에당기손익으로재분류되지않는항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans:순확정급여부채의 재측정요소",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax:관계기업의 기타포괄손익에",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossBeforeTax:법인세비용차감전순이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ResearchAndDevelopmentExpense:연구개발비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_SellingExpense:판매비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod:지분법이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:dart_CashAndCashEquivalentsAtBeginningOfPeriodCf:기초현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:dart_CashAndCashEquivalentsAtEndOfPeriodCf:기말현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_CashAndCashEquivalentsInSubsidiaryOrBusinessesAcquiredOrDisposed2013:매각예정분류자산에 포함된 현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:dart_DecreaseInGuaranteeDepositsAsFinancialActivities:임대보증금의 반환",
+            "UNMAPPED_ACCOUNT:CF:dart_PaymentForStockIssueCost:신주발행비용",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromBonds:사채의 발행",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromLongTermBorrowings:장기차입금의 차입",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromShortTermBorrowings:단기차입금의 차입",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfBonds:유동성사채의 상환",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfShortTermBorrowings:단기차입금의 상환",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsPaidToNoncontrollingInterestsClassifiedAsFinancingActivities:종속기업의 비지배주주배당",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries:종속기업의 비지배주주지분 취득",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities:리스부채의 상환",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromIssuingShares:유상증자",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_RepaymentsOfCurrentBorrowings:유동성장기차입금의 상환",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_RepaymentsOfNoncurrentBorrowings:장기차입금의 상환",
+            "UNMAPPED_ACCOUNT:CF:dart_DecreaseInGuaranteeDeposits:보증금의 감소",
+            "UNMAPPED_ACCOUNT:CF:dart_IncreaseInGuaranteeDeposits:보증금의 증가",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromCompensation:보험금의 수령",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfFairValueFinancialAsset:당기손익-공정가치 측정 금융자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome:기타포괄손익-공정가치 측정 금융자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfShortTermFinancialInstruments:금융기관예치금의 감소",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfShortTermLoansAndReceivables:단기대여금의 회수",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfFairValueFinancialAsset:당기손익-공정가치 측정 금융자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome:기타포괄손익-공정가치 측정 금융자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfShortTermFinancialInstruments:금융기관예치금의증가",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_CashReceiptsFromFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities:파생상품거래의 정산",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsReceivedClassifiedAsInvestingActivities:배당금의 수취",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities:온실가스배출권의 처분",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromDisposalOfNoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleAndDiscontinuedOperations:매각예정분류자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities:정부보조금의 수령",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities:무형자산의 처분",
+            "WARNINGS_TRUNCATED_SEE_SOURCE"
+          ]
+        },
+        {
+          "fiscalYear": 2024,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "26615347000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Revenue",
+                "accountName": "매출",
+                "accountDetail": "-",
+                "amount": "26615347000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "-560596000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "dart_OperatingIncomeLoss",
+                "accountName": "영업손실",
+                "accountDetail": "-",
+                "amount": "-560596000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "-2409300000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLoss",
+                "accountName": "당기순손실",
+                "accountDetail": "-",
+                "amount": "-2409300000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "-2562606000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLossAttributableToOwnersOfParent",
+                "accountName": "지배기업 소유주지분",
+                "accountDetail": "-",
+                "amount": "-2562606000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "32859566000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Assets",
+                "accountName": "자산총계",
+                "accountDetail": "-",
+                "amount": "32859566000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "24786759000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Liabilities",
+                "accountName": "부채총계",
+                "accountDetail": "-",
+                "amount": "24786759000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "8072807000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Equity",
+                "accountName": "자본총계",
+                "accountDetail": "-",
+                "amount": "8072807000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "6542261000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_EquityAttributableToOwnersOfParent",
+                "accountName": "지배기업의 소유주에게 귀속되는 자본",
+                "accountDetail": "-",
+                "amount": "6542261000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "2411761000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+                "accountName": "영업활동현금흐름",
+                "accountDetail": "-",
+                "amount": "2411761000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-1363248000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInInvestingActivities",
+                "accountName": "투자활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-1363248000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "-1334305000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInFinancingActivities",
+                "accountName": "재무활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-1334305000000"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "-5438.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_BasicEarningsLossPerShare",
+                "accountName": "기본주당이익(손실)",
+                "accountDetail": "-",
+                "amount": "-5438"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "500000000",
+            "treasuryCommonShares": null,
+            "outstandingCommonShares": "500000000",
+            "preferredShares": "0",
+            "asOf": "2024-12-31",
+            "receiptNo": "20250312000906"
+          },
+          "normalizationWarnings": [
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentAssets:유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CashAndCashEquivalents:현금및현금성자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxAssets:선급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTradeReceivables:매출채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_Inventories:재고자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners:매각예정분류자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentAssets:기타유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialAssets:기타금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentReceivables:기타채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssets:비유동자산",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IntangibleAssetsAndGoodwill:무형자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentAccountedForUsingEquityMethod:지분법적용 투자주식",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentProperty:투자부동산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NetDeferredTaxAssets:이연법인세자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan:종업원급여자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentAssets:기타비유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialAssets:기타비유동금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_PropertyPlantAndEquipment:유형자산",
+            "UNMAPPED_ACCOUNT:BS:dart_CapitalSurplus:자본잉여금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_AmountRecognisedInOtherComprehensiveIncomeAndAccumulatedInEquityRelatingToNoncurrentAssetsOrDisposalGroupsHeldForSale:매각예정분류 기타포괄손익누계액",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IssuedCapital:자본금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherReserves:기타자본",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_RetainedEarnings:이익잉여금(결손금)",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_EquityAndLiabilities:자본과부채총계",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentLiabilities:유동부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAdvancesCustomers:선수금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherPayables:미지급금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_AccrualsClassifiedAsCurrent:미지급비용",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxLiabilities:미지급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_LiabilitiesIncludedInDisposalGroupsClassifiedAsHeldForSale:매각예정분류부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialLiabilities:금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentLiabilities:기타 유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherShorttermProvisions:충당부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_TradeAndOtherCurrentPayablesToTradeSuppliers:매입채무",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentLiabilities:비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NetDeferredTaxLiabilities:이연법인세부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAdvances:장기선수금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan:순확정급여부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherLongtermProvisions:비유동충당부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialLiabilities:비유동금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentLiabilities:기타 비유동 부채",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherGains:기타영업외수익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherLosses:기타영업외비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncome:총포괄이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent:지배기업 소유주지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_CostOfSales:매출원가",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_DilutedEarningsLossPerShare:희석주당이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GeneralAndAdministrativeExpense:관리비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GrossProfit:매출총이익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_IncomeTaxExpenseContinuingOperations:법인세수익(비용)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncome:기타포괄손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax:후속기간에당기손익으로재분류되는항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax:파생상품평가손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax:해외사업환산손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax:관계기업의 기타포괄손익에 대한",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax:후속기간에당기손익으로재분류되지않는항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans:순확정급여부채의 재측정요소",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax:관계기업의 기타포괄손익에",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossBeforeTax:법인세비용차감전순손실",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ResearchAndDevelopmentExpense:연구개발비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_SellingExpense:판매비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod:지분법이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:dart_CashAndCashEquivalentsAtBeginningOfPeriodCf:기초현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:dart_CashAndCashEquivalentsAtEndOfPeriodCf:기말현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_CashAndCashEquivalentsInSubsidiaryOrBusinessesAcquiredOrDisposed2013:매각예정집단에 포함된 현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:dart_PaymentForStockIssueCost:신주발행비용",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromBonds:사채의 발행",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromLongTermBorrowings:장기차입금의 차입",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromShortTermBorrowings:단기차입금의 차입",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfBonds:사채의 상환",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfLongTermBorrowings:유동성장기차입금의 상환",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfShortTermBorrowings:단기차입금의 상환",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsPaidClassifiedAsFinancingActivities:배당금지급",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsPaidToNoncontrollingInterestsClassifiedAsFinancingActivities:종속기업의 비지배주주배당",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PaymentsFromChangesInOwnershipInterestsInSubsidiaries:종속기업의 비지배주주지분 취득",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities:리스부채의 상환",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromIssuingShares:유상증자",
+            "UNMAPPED_ACCOUNT:CF:dart_DecreaseInGuaranteeDeposits:보증금의 감소",
+            "UNMAPPED_ACCOUNT:CF:dart_IncreaseInGuaranteeDeposits:보증금의 증가",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromCompensation:보험금의 수령",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfFairValueFinancialAsset:당기손익-공정가치 측정 금융자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome:기타포괄손익-공정가치 측정 금융자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfShortTermFinancialInstruments:금융기관예치금의 감소",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfShortTermLoansAndReceivables:단기대여금의 회수",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfFairValueFinancialAsset:당기손익-공정가치 측정 금융자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome:기타포괄손익-공정가치 측정 금융자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfLongTermLoansAndReceivables:장기대여금의 대여",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfShortTermFinancialInstruments:금융기관예치금의 증가",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfShortTermLoansAndReceivables:단기대여금의 대여",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities:파생상품거래의 정산",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsReceivedClassifiedAsInvestingActivities:배당금의 수취",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities:온실가스배출권의 처분",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities:정부보조금의 수령",
+            "WARNINGS_TRUNCATED_SEE_SOURCE"
+          ]
+        },
+        {
+          "fiscalYear": 2023,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "21330819000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Revenue",
+                "accountName": "매출",
+                "accountDetail": "-",
+                "amount": "21330819000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "-2510164000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "dart_OperatingIncomeLoss",
+                "accountName": "영업이익(손실)",
+                "accountDetail": "-",
+                "amount": "-2510164000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "-2576729000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLoss",
+                "accountName": "당기순이익(손실)",
+                "accountDetail": "-",
+                "amount": "-2576729000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "-2733742000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLossAttributableToOwnersOfParent",
+                "accountName": "지배기업 소유주지분",
+                "accountDetail": "-",
+                "amount": "-2733742000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "35759298000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Assets",
+                "accountName": "자산총계",
+                "accountDetail": "-",
+                "amount": "35759298000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "26988754000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Liabilities",
+                "accountName": "부채총계",
+                "accountDetail": "-",
+                "amount": "26988754000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "8770544000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Equity",
+                "accountName": "자본총계",
+                "accountDetail": "-",
+                "amount": "8770544000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "7232182000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_EquityAttributableToOwnersOfParent",
+                "accountName": "지배기업의 소유주에게 귀속되는 자본",
+                "accountDetail": "-",
+                "amount": "7232182000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "1682748000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+                "accountName": "영업활동현금흐름",
+                "accountDetail": "-",
+                "amount": "1682748000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-2589336000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInInvestingActivities",
+                "accountName": "투자활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-2589336000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "1350863000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInFinancingActivities",
+                "accountName": "재무활동현금흐름",
+                "accountDetail": "-",
+                "amount": "1350863000000"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "-7640.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_BasicEarningsLossPerShare",
+                "accountName": "기본주당이익(손실)",
+                "accountDetail": "-",
+                "amount": "-7640"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "357815700",
+            "treasuryCommonShares": null,
+            "outstandingCommonShares": "357815700",
+            "preferredShares": "0",
+            "asOf": "2023-12-31",
+            "receiptNo": "20240314000487"
+          },
+          "normalizationWarnings": [
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentAssets:유동자산",
+            "UNMAPPED_ACCOUNT:BS:dart_CurrentNontradeReceivables:기타채권",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermTradeReceivable:매출채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CashAndCashEquivalents:현금및현금성자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxAssets:선급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_Inventories:재고자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentAssets:기타유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialAssets:기타금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_ShorttermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssets:비유동자산",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:dart_NoncurrentNontradeReceivables:기타비유동채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_DeferredTaxAssets:이연법인세자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IntangibleAssetsAndGoodwill:무형자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentAccountedForUsingEquityMethod:지분법적용 투자주식",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentProperty:투자부동산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentRecognisedAssetsDefinedBenefitPlan:종업원급여자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentAssets:기타비유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialAssets:기타비유동금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_PropertyPlantAndEquipment:유형자산",
+            "UNMAPPED_ACCOUNT:BS:dart_CapitalSurplus:자본잉여금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IssuedCapital:자본금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherReserves:기타자본",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_RetainedEarnings:이익잉여금(결손금)",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_EquityAndLiabilities:자본과부채총계",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentLiabilities:유동부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAccruedExpenses:미지급비용",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAdvancesCustomers:선수금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherPayables:미지급금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermTradePayables:매입채무",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxLiabilities:미지급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialLiabilities:금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentLiabilities:기타 유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherShorttermProvisions:충당부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentLiabilities:비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_DeferredTaxLiabilities:이연법인세부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAdvances:장기선수금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentRecognisedLiabilitiesDefinedBenefitPlan:순확정급여부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherLongtermProvisions:비유동충당부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialLiabilities:비유동금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentLiabilities:기타 비유동 부채",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherGains:기타영업외수익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherLosses:기타영업외비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncome:총포괄이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent:지배기업 소유주지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_CostOfSales:매출원가",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_DilutedEarningsLossPerShare:희석주당이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GeneralAndAdministrativeExpense:관리비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GrossProfit:매출총이익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_IncomeTaxExpenseContinuingOperations:법인세비용(수익)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncome:기타포괄손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax:후속기간에당기손익으로재분류되는항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnCashFlowHedgesNetOfTax:파생상품평가손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationNetOfTax:해외사업환산손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossNetOfTax:관계기업의 기타포괄손익에 대한",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax:후속기간에당기손익으로재분류되지않는항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans:순확정급여부채의 재측정요소",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossNetOfTax:관계기업의 기타포괄손익에",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossBeforeTax:법인세비용차감전순이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ResearchAndDevelopmentExpense:연구개발비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_SellingExpense:판매비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod:지분법이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:dart_CashAndCashEquivalentsAtBeginningOfPeriodCf:기초현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:dart_CashAndCashEquivalentsAtEndOfPeriodCf:기말현금및현금성자산",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromBonds:사채의 발행",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromLongTermBorrowings:장기차입금의 차입",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromShortTermBorrowings:단기차입금의 차입",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfLongTermBorrowings:유동성장기부채의 상환",
+            "UNMAPPED_ACCOUNT:CF:dart_RepaymentsOfShortTermBorrowings:단기차입금의 상환",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsPaidClassifiedAsFinancingActivities:배당금지급",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsPaidToNoncontrollingInterestsClassifiedAsFinancingActivities:종속기업의 비지배주주배당",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities:리스부채의 상환",
+            "UNMAPPED_ACCOUNT:CF:dart_DecreaseInGuaranteeDeposits:보증금의 감소",
+            "UNMAPPED_ACCOUNT:CF:dart_IncreaseInGuaranteeDeposits:보증금의 증가",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfFairValueFinancialAsset:당기손익-공정가치 측정 금융자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome:기타포괄손익-공정가치측정금융자산의처분",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfShortTermFinancialInstruments:금융기관예치금의 감소",
+            "UNMAPPED_ACCOUNT:CF:dart_ProceedsFromSalesOfShortTermLoansAndReceivables:단기대여금의 회수",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfFairValueFinancialAsset:당기손익-공정가치 측정 금융자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome:기타포괄손익-공정가치측정금융자산의취득",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfLongTermLoansAndReceivables:장기대여금의 대여",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfShortTermFinancialInstruments:금융기관예치금의증가",
+            "UNMAPPED_ACCOUNT:CF:dart_PurchaseOfShortTermLoansAndReceivables:단기대여금의 대여",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_CashPaymentsForFutureContractsForwardContractsOptionContractsAndSwapContractsClassifiedAsInvestingActivities:파생상품거래의 정산",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_DividendsReceivedClassifiedAsInvestingActivities:배당금수취",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_OtherInflowsOutflowsOfCashClassifiedAsInvestingActivities:현금의기타유입(유출)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromGovernmentGrantsClassifiedAsInvestingActivities:정부보조금의 수취",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromSalesOfIntangibleAssetsClassifiedAsInvestingActivities:무형자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromSalesOfInvestmentsAccountedForUsingEquityMethod:지분법적용 투자지분의 처분",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_ProceedsFromSalesOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities:유형자산의 처분",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities:무형자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities:유형자산의 취득",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities:영업활동으로 인한 자산 부채의 변동",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable:리스채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseincreaseInOtherNonCurrentNonFinancialAssets:기타비유동자산의 감소(증가)",
+            "WARNINGS_TRUNCATED_SEE_SOURCE"
+          ]
+        },
+        {
+          "fiscalYear": 2022,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "26151781000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Revenue",
+                "accountName": "매출",
+                "accountDetail": "-",
+                "amount": "26151781000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "-2085047000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "dart_OperatingIncomeLoss",
+                "accountName": "영업이익(손실)",
+                "accountDetail": "-",
+                "amount": "-2085047000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "-3195585000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLoss",
+                "accountName": "당기순이익(손실)",
+                "accountDetail": "-",
+                "amount": "-3195585000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "-3071565000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLossAttributableToOwnersOfParent",
+                "accountName": "지배기업 소유주지분",
+                "accountDetail": "-",
+                "amount": "-3071565000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "35686019000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Assets",
+                "accountName": "자산총계",
+                "accountDetail": "-",
+                "amount": "35686019000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "24366792000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Liabilities",
+                "accountName": "부채총계",
+                "accountDetail": "-",
+                "amount": "24366792000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "11319227000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Equity",
+                "accountName": "자본총계",
+                "accountDetail": "-",
+                "amount": "11319227000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "9879589000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_EquityAttributableToOwnersOfParent",
+                "accountName": "지배기업의 소유주에게 귀속되는 자본",
+                "accountDetail": "-",
+                "amount": "9879589000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "3011020000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+                "accountName": "영업활동현금흐름",
+                "accountDetail": "-",
+                "amount": "3011020000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-6700169000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInInvestingActivities",
+                "accountName": "투자활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-6700169000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "1946024000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInFinancingActivities",
+                "accountName": "재무활동현금흐름",
+                "accountDetail": "-",
+                "amount": "1946024000000"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "-8584.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_BasicEarningsLossPerShare",
+                "accountName": "기본주당이익(손실)",
+                "accountDetail": "-",
+                "amount": "-8584"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "357815700",
+            "treasuryCommonShares": null,
+            "outstandingCommonShares": "357815700",
+            "preferredShares": "0",
+            "asOf": "2022-12-31",
+            "receiptNo": "20230313000751"
+          },
+          "normalizationWarnings": [
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentAssets:유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CashAndCashEquivalents:현금및현금성자산",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermTradeReceivable:매출채권",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherReceivables:기타채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialAssets:기타금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_Inventories:재고자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxAssets:선급법인세",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherCurrentAssets:기타유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssets:비유동자산",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentAccountedForUsingEquityMethod:지분법적용 투자주식",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermTradeAndOtherNonCurrentReceivablesGross:기타비유동채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialAssets:기타비유동금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_PropertyPlantAndEquipment:유형자산",
+            "UNMAPPED_ACCOUNT:BS:-표준계정코드 미사용-:무형자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentProperty:투자부동산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_DeferredTaxAssets:이연법인세자산",
+            "UNMAPPED_ACCOUNT:BS:-표준계정코드 미사용-:종업원급여자산",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherNonCurrentAssets:기타비유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentLiabilities:유동부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermTradePayables:매입채무",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialLiabilities:금융부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherPayables:미지급금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAccruedExpenses:미지급비용",
+            "UNMAPPED_ACCOUNT:BS:dart_PaymentsOfIncomeTaxesPayable:미지급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentProvisions:충당부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAdvancesCustomers:선수금",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherCurrentLiabilities:기타유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentLiabilities:비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialLiabilities:비유동금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentProvisions:비유동충당부채",
+            "UNMAPPED_ACCOUNT:BS:dart_PostemploymentBenefitObligations:순확정급여부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_DeferredTaxLiabilities:이연법인세부채",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherNonCurrentLiabilities:기타비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IssuedCapital:자본금",
+            "UNMAPPED_ACCOUNT:BS:dart_CapitalSurplus:자본잉여금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_RetainedEarnings:이익잉여금(결손금)",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherComprehensiveIncomeLossAccumulatedAmount:기타자본",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_EquityAndLiabilities:자본과부채총계",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_CostOfSales:매출원가",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GrossProfit:매출총이익",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:판매비",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:관리비",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:연구개발비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherGains:기타영업외수익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherLosses:기타영업외비용",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:지분법이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossBeforeTax:법인세비용차감전순이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_IncomeTaxExpenseContinuingOperations:법인세비용(수익)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncome:기타포괄손익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossBeforeTax:후속기간에 당기손익으로 재분류되지 않는 항목",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans:순확정급여부채의 재측정요소",
+            "UNMAPPED_ACCOUNT:CIS:dart_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossBeforeTax:관계기업의 기타포괄손익에 대한 ",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossBeforeTax:후속기간에 당기손익으로 재분류되는 항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax:해외사업환산손익",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:파생상품평가손익",
+            "UNMAPPED_ACCOUNT:CIS:dart_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax:관계기업의 기타포괄손익에 대한 지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncome:총포괄이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent:지배기업 소유주지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_DilutedEarningsLossPerShare:희석주당이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:dart_ProfitLossForStatementOfCashFlows:당기순이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForReconcileProfitLoss:당기순이익조정을 위한 가감",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForIncomeTaxExpense:법인세비용(수익)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDepreciationExpense:감가상각 및 무형자산상각",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainOnForeignExchangeTranslations:외화환산이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnForeignExchangeTranslations:외화환산손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForProvisionForSeveranceIndemnities:퇴직급여",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainOnDispositionOfTangibleAssets:유형자산처분이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment:유형자산처분손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForImpairmentLossesOfPropertyPlantAndEquipment:유형자산손상차손",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForReversalsOfPropertyPlantAndEquipment:유형자산손상차손환입",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets:무형자산처분이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets:무형자산처분손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForImpairmentLossesOfIntangibleAssets:무형자산손상차손",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForReversalsOfImpairmentLossesOnIntangibleAssets:무형자산손상차손환입",
+            "UNMAPPED_ACCOUNT:CF:-표준계정코드 미사용-:투자부동산손상차손",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForExpenseOfProvisions:충당부채전입액",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForInterestIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForFinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod:지분법손익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnDisposalsofInvestmentsInAssociates:종속기업처분손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForOtherGainsWithoutCashFlowIn:기타수익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForOtherLossesWithoutCashFlowOut:기타비용",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities:영업활동으로인한자산ㆍ부채의변동",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable:매출채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables:기타채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForDecreaseIncreaseInInventories:재고자산의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable:리스채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets:기타유동자산의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseincreaseInNonCurrentReceivables:기타비유동자산의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable:매입채무의 증가(감소)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForIncreasedecreaseInOtherPayables:미지급금의 증가(감소)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForIncreasedecreaseInAccruedExpenses:미지급비용의 증가(감소)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForIncreasedecreaseInProvisions:충당부채의 증가(감소)",
+            "WARNINGS_TRUNCATED_SEE_SOURCE"
+          ]
+        },
+        {
+          "fiscalYear": 2021,
+          "basis": "CFS",
+          "currency": "KRW",
+          "accounts": [
+            {
+              "code": "REVENUE",
+              "label": "매출액",
+              "value": "29878043000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Revenue",
+                "accountName": "매출",
+                "accountDetail": "-",
+                "amount": "29878043000000"
+              }
+            },
+            {
+              "code": "OPERATING_PROFIT",
+              "label": "영업이익",
+              "value": "2230608000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "dart_OperatingIncomeLoss",
+                "accountName": "영업이익(손실)",
+                "accountDetail": "-",
+                "amount": "2230608000000"
+              }
+            },
+            {
+              "code": "NET_INCOME",
+              "label": "당기순이익",
+              "value": "1333544000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLoss",
+                "accountName": "당기순이익(손실)",
+                "accountDetail": "-",
+                "amount": "1333544000000"
+              }
+            },
+            {
+              "code": "PARENT_NET_INCOME",
+              "label": "지배주주 귀속 순이익",
+              "value": "1186182000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_ProfitLossAttributableToOwnersOfParent",
+                "accountName": "지배기업 소유주지분",
+                "accountDetail": "-",
+                "amount": "1186182000000"
+              }
+            },
+            {
+              "code": "TOTAL_ASSETS",
+              "label": "자산총계",
+              "value": "38154515000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Assets",
+                "accountName": "자산총계",
+                "accountDetail": "-",
+                "amount": "38154515000000"
+              }
+            },
+            {
+              "code": "TOTAL_LIABILITIES",
+              "label": "부채총계",
+              "value": "23392014000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Liabilities",
+                "accountName": "부채총계",
+                "accountDetail": "-",
+                "amount": "23392014000000"
+              }
+            },
+            {
+              "code": "TOTAL_EQUITY",
+              "label": "자본총계",
+              "value": "14762501000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_Equity",
+                "accountName": "자본총계",
+                "accountDetail": "-",
+                "amount": "14762501000000"
+              }
+            },
+            {
+              "code": "PARENT_EQUITY",
+              "label": "지배주주 지분",
+              "value": "13118855000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_EquityAttributableToOwnersOfParent",
+                "accountName": "지배기업의 소유주에게 귀속되는 자본",
+                "accountDetail": "-",
+                "amount": "13118855000000"
+              }
+            },
+            {
+              "code": "OPERATING_CASH_FLOW",
+              "label": "영업활동 현금흐름",
+              "value": "5753446000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+                "accountName": "영업활동현금흐름",
+                "accountDetail": "-",
+                "amount": "5753446000000"
+              }
+            },
+            {
+              "code": "INVESTING_CASH_FLOW",
+              "label": "투자활동 현금흐름",
+              "value": "-4263080000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInInvestingActivities",
+                "accountName": "투자활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-4263080000000"
+              }
+            },
+            {
+              "code": "FINANCING_CASH_FLOW",
+              "label": "재무활동 현금흐름",
+              "value": "-2466136000000.000000",
+              "unit": "KRW",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_CashFlowsFromUsedInFinancingActivities",
+                "accountName": "재무활동현금흐름",
+                "accountDetail": "-",
+                "amount": "-2466136000000"
+              }
+            },
+            {
+              "code": "BASIC_EPS",
+              "label": "공시 기본주당이익",
+              "value": "3315.000000",
+              "unit": "KRW_PER_SHARE",
+              "status": "AVAILABLE",
+              "reason": null,
+              "original": {
+                "accountId": "ifrs-full_BasicEarningsLossPerShare",
+                "accountName": "기본주당이익(손실)",
+                "accountDetail": "-",
+                "amount": "3315"
+              }
+            }
+          ],
+          "shares": {
+            "issuedCommonShares": "357815700",
+            "treasuryCommonShares": null,
+            "outstandingCommonShares": "357815700",
+            "preferredShares": "0",
+            "asOf": "2021-12-31",
+            "receiptNo": "20220315000742"
+          },
+          "normalizationWarnings": [
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentAssets:유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CashAndCashEquivalents:현금및현금성자산",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermTradeReceivable:매출채권",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherReceivables:기타채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialAssets:기타금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_Inventories:재고자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentTaxAssets:선급법인세",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherCurrentAssets:기타유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentAssets:비유동자산",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermDepositsNotClassifiedAsCashEquivalents:금융기관예치금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_InvestmentAccountedForUsingEquityMethod:지분법적용 투자주식",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermTradeAndOtherNonCurrentReceivablesGross:기타비유동채권",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialAssets:기타비유동금융자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_PropertyPlantAndEquipment:유형자산",
+            "UNMAPPED_ACCOUNT:BS:-표준계정코드 미사용-:무형자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_DeferredTaxAssets:이연법인세자산",
+            "UNMAPPED_ACCOUNT:BS:-표준계정코드 미사용-:종업원급여자산",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherNonCurrentAssets:기타비유동자산",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentLiabilities:유동부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermTradePayables:매입채무",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherCurrentFinancialLiabilities:금융부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermOtherPayables:미지급금",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAccruedExpenses:미지급비용",
+            "UNMAPPED_ACCOUNT:BS:dart_PaymentsOfIncomeTaxesPayable:미지급법인세",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_CurrentProvisions:충당부채",
+            "UNMAPPED_ACCOUNT:BS:dart_ShortTermAdvancesCustomers:선수금",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherCurrentLiabilities:기타유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentLiabilities:비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_OtherNoncurrentFinancialLiabilities:비유동금융부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncurrentProvisions:비유동충당부채",
+            "UNMAPPED_ACCOUNT:BS:dart_PostemploymentBenefitObligations:순확정급여부채",
+            "UNMAPPED_ACCOUNT:BS:dart_LongTermAdvancesCustomers:장기선수금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_DeferredTaxLiabilities:이연법인세부채",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherNonCurrentLiabilities:기타비유동부채",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_IssuedCapital:자본금",
+            "UNMAPPED_ACCOUNT:BS:dart_CapitalSurplus:자본잉여금",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_RetainedEarnings:이익잉여금(결손금)",
+            "UNMAPPED_ACCOUNT:BS:dart_OtherComprehensiveIncomeLossAccumulatedAmount:기타자본",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_NoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:BS:ifrs-full_EquityAndLiabilities:자본과부채총계",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_CostOfSales:매출원가",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GrossProfit:매출총이익",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:판매비",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:관리비",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:연구개발비",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_FinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherGains:기타영업외수익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherLosses:기타영업외비용",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:지분법이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossBeforeTax:법인세비용차감전순이익(손실)",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_IncomeTaxExpenseContinuingOperations:법인세비용",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_OtherComprehensiveIncome:기타포괄손익",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossBeforeTax:후속기간에 당기손익으로 재분류되지 않는 항목",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans:순확정급여부채의 재측정요소",
+            "UNMAPPED_ACCOUNT:CIS:dart_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillNotBeReclassifiedToProfitOrLossBeforeTax:관계기업의 기타포괄손익에 대한 ",
+            "UNMAPPED_ACCOUNT:CIS:dart_OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossBeforeTax:후속기간에 당기손익으로 재분류되는 항목",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_GainsLossesOnExchangeDifferencesOnTranslationBeforeTax:해외사업환산손익",
+            "UNMAPPED_ACCOUNT:CIS:-표준계정코드 미사용-:파생상품평가손익",
+            "UNMAPPED_ACCOUNT:CIS:dart_ShareOfOtherComprehensiveIncomeOfAssociatesAndJointVenturesAccountedForUsingEquityMethodThatWillBeReclassifiedToProfitOrLossBeforeTax:관계기업의 기타포괄손익에 대한 지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncome:총포괄손익",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ProfitLossAttributableToNoncontrollingInterests:비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent:총 포괄손익, 지배기업 소유주지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_ComprehensiveIncomeAttributableToNoncontrollingInterests:총 포괄손익, 비지배지분",
+            "UNMAPPED_ACCOUNT:CIS:ifrs-full_DilutedEarningsLossPerShare:희석주당이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:dart_ProfitLossForStatementOfCashFlows:당기순이익(손실)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForReconcileProfitLoss:당기순이익조정을 위한 가감",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForIncomeTaxExpense:법인세비용",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDepreciationExpense:감가상각 및 무형자산상각",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainOnForeignExchangeTranslations:외화환산이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnForeignExchangeTranslations:외화환산손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForProvisionForSeveranceIndemnities:퇴직급여",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainOnDispositionOfTangibleAssets:유형자산처분이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnDispositionOfPropertyPlantAndEquipment:유형자산처분손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForImpairmentLossesOfPropertyPlantAndEquipment:유형자산손상차손",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForReversalsOfPropertyPlantAndEquipment:유형자산손상차손환입",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainsOnDisposalsOfIntangibleAssets:무형자산처분이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOnDisposalsOfIntangibleAssets:무형자산처분손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForImpairmentLossesOfIntangibleAssets:무형자산손상차손",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForReversalsOfImpairmentLossesOnIntangibleAssets:무형자산손상차손환입",
+            "UNMAPPED_ACCOUNT:CF:-표준계정코드 미사용-:기타자산손상차손",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForGainsOnDisposalsOfNoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale:매각예정비유동자산처분이익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForExpenseOfProvisions:충당부채전입액",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForInterestIncome:금융수익",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForFinanceCosts:금융비용",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForLossesOfAssociatesAndJointVenturesAccountedForUsingEquityMethod:지분법손익",
+            "UNMAPPED_ACCOUNT:CF:-표준계정코드 미사용-:종속기업처분손실",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForOtherGainsWithoutCashFlowIn:기타수익",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForOtherLossesWithoutCashFlowOut:기타비용",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities:영업활동으로인한자산ㆍ부채의변동",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForDecreaseIncreaseInTradeAccountReceivable:매출채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForDecreaseIncreaseInOtherOperatingReceivables:기타채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForDecreaseIncreaseInInventories:재고자산의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseIncreaseInFinanceLeaseReceivable:리스채권의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseIncreaseInOtherCurrentAssets:기타유동자산의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForDecreaseincreaseInNonCurrentReceivables:기타비유동자산의 감소(증가)",
+            "UNMAPPED_ACCOUNT:CF:ifrs-full_AdjustmentsForIncreaseDecreaseInTradeAccountPayable:매입채무의 증가(감소)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForIncreasedecreaseInOtherPayables:미지급금의 증가(감소)",
+            "UNMAPPED_ACCOUNT:CF:dart_AdjustmentsForIncreasedecreaseInAccruedExpenses:미지급비용의 증가(감소)",
+            "WARNINGS_TRUNCATED_SEE_SOURCE"
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "mode": "REAL",
+      "sources": [
+        "DART",
+        "FSC"
+      ],
+      "collectedAt": "2026-11-17T06:01:33.794628Z",
+      "financialPeriods": [
+        {
+          "fiscalYear": 2025,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20260311003822",
+          "filedAt": "2026-03-11",
+          "periodStart": "2025-01-01",
+          "periodEnd": "2025-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:32.78073Z"
+        },
+        {
+          "fiscalYear": 2024,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20250312000906",
+          "filedAt": "2025-03-12",
+          "periodStart": "2024-01-01",
+          "periodEnd": "2024-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:32.93604Z"
+        },
+        {
+          "fiscalYear": 2023,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20240314000487",
+          "filedAt": "2024-03-14",
+          "periodStart": "2023-01-01",
+          "periodEnd": "2023-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:33.083041Z"
+        },
+        {
+          "fiscalYear": 2022,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20230313000751",
+          "filedAt": "2023-03-13",
+          "periodStart": "2022-01-01",
+          "periodEnd": "2022-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:33.234545Z"
+        },
+        {
+          "fiscalYear": 2021,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20220315000742",
+          "filedAt": "2022-03-15",
+          "periodStart": "2021-01-01",
+          "periodEnd": "2021-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:33.376244Z"
+        }
+      ],
+      "market": {
+        "closePriceAsOf": "2026-11-16",
+        "closePriceSource": "FSC",
+        "marketCapAsOf": "2026-11-16",
+        "marketCapSource": "FSC",
+        "collectedAt": "2026-11-17T06:01:33.794628Z",
+        "scope": "COMMON_STOCK"
+      },
+      "stale": false
+    },
+    "error": null
+  },
+  "metrics": {
+    "data": {
+      "company": {
+        "stockCode": "034220",
+        "name": "엘지디스플레이(주)",
+        "market": "KOSPI",
+        "supported": true
+      },
+      "status": "AVAILABLE",
+      "reason": null,
+      "fiscalYear": 2025,
+      "basis": "CFS",
+      "currency": "KRW",
+      "shares": {
+        "issuedCommonShares": "500000000",
+        "treasuryCommonShares": null,
+        "outstandingCommonShares": "500000000",
+        "preferredShares": "0",
+        "asOf": "2025-12-31",
+        "receiptNo": "20260311003822"
+      },
+      "priceNote": "PER·PBR은 최근 사업연도 재무제표와 종가 기준일을 함께 확인해야 합니다. 실적이 오래되었을 수 있습니다.",
+      "metrics": [
+        {
+          "code": "REVENUE_GROWTH",
+          "label": "매출액 증가율",
+          "value": "-3.025566",
+          "unit": "PERCENT",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "(당기 매출액 − 전기 매출액) ÷ 전기 매출액 × 100",
+          "usedAccounts": [
+            "REVENUE"
+          ],
+          "explanation": "같은 재무제표 기준에서 매출이 전년보다 얼마나 변했는지 보여줍니다.",
+          "naConditions": "전기 없음, 전기 매출액 0 이하, 연결/별도 기준 변경, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "OPERATING_MARGIN",
+          "label": "영업이익률",
+          "value": "2.003004",
+          "unit": "PERCENT",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "영업이익 ÷ 매출액 × 100",
+          "usedAccounts": [
+            "OPERATING_PROFIT",
+            "REVENUE"
+          ],
+          "explanation": "매출 중 영업이익이 차지하는 비율입니다.",
+          "naConditions": "매출액 0 이하, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "NET_MARGIN",
+          "label": "순이익률",
+          "value": "1.177087",
+          "unit": "PERCENT",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "당기순이익 ÷ 매출액 × 100",
+          "usedAccounts": [
+            "NET_INCOME",
+            "REVENUE"
+          ],
+          "explanation": "매출 중 최종 순이익이 차지하는 비율입니다.",
+          "naConditions": "매출액 0 이하, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "ROE",
+          "label": "ROE",
+          "value": "3.426828",
+          "unit": "PERCENT",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "지배주주 귀속 순이익 ÷ 기말 지배주주 지분 × 100",
+          "usedAccounts": [
+            "PARENT_NET_INCOME",
+            "PARENT_EQUITY"
+          ],
+          "explanation": "기말 지배주주 지분에 비해 지배주주 귀속 순이익이 얼마나 발생했는지 보여줍니다.",
+          "naConditions": "기말 지배주주 지분 0 이하, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 · 기말 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "ROA",
+          "label": "ROA",
+          "value": "1.128693",
+          "unit": "PERCENT",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "당기순이익 ÷ 기말 자산총계 × 100",
+          "usedAccounts": [
+            "NET_INCOME",
+            "TOTAL_ASSETS"
+          ],
+          "explanation": "기말 자산에 비해 순이익이 얼마나 발생했는지 보여줍니다.",
+          "naConditions": "기말 자산총계 0 이하, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 · 기말 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "DEBT_RATIO",
+          "label": "부채비율",
+          "value": "243.358627",
+          "unit": "PERCENT",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "부채총계 ÷ 자본총계 × 100",
+          "usedAccounts": [
+            "TOTAL_LIABILITIES",
+            "TOTAL_EQUITY"
+          ],
+          "explanation": "자본에 비해 부채가 어느 정도인지 보여줍니다.",
+          "naConditions": "자본총계 0 이하, 부채 음수, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "EPS",
+          "label": "EPS",
+          "value": "453.000000",
+          "unit": "KRW_PER_SHARE",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "공시된 보통주 기본주당이익",
+          "usedAccounts": [
+            "BASIC_EPS"
+          ],
+          "explanation": "공시된 보통주 한 주당 기본이익이며 직접 추정하지 않습니다.",
+          "naConditions": "공시 보통주 기본주당이익 없음, 계정·메타데이터 부족 또는 비정상",
+          "basisNote": "연간 · 공시 보통주 기본주당이익",
+          "priceAsOf": null
+        },
+        {
+          "code": "BPS",
+          "label": "BPS",
+          "value": "13208.248000",
+          "unit": "KRW_PER_SHARE",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "보통주 귀속 순자산 ÷ 결산일 유통보통주식수(자기주식 제외)",
+          "usedAccounts": [
+            "PARENT_EQUITY"
+          ],
+          "explanation": "확인된 보통주 한 주당 순자산입니다. 우선주 발행 기업은 산출하지 않습니다.",
+          "naConditions": "우선주 발행·확인 불가, 결산일 유통보통주식수 없음·불일치, 계정 부족 또는 비정상",
+          "basisNote": "연간 · 결산일 보통주 기준",
+          "priceAsOf": null
+        },
+        {
+          "code": "PER",
+          "label": "PER",
+          "value": "15.584989",
+          "unit": "TIMES",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "종가 ÷ 공시 기본주당이익",
+          "usedAccounts": [
+            "BASIC_EPS"
+          ],
+          "explanation": "주가가 최근 사업연도 공시 기본주당이익의 몇 배인지 보여줍니다.",
+          "naConditions": "EPS 0 이하·N/A, 종가·기준일·출처 없음 또는 비정상",
+          "basisNote": "최근 사업연도 재무제표와 표시된 기준일의 보통주 종가 사용",
+          "priceAsOf": "2026-11-16"
+        },
+        {
+          "code": "PBR",
+          "label": "PBR",
+          "value": "0.534514",
+          "unit": "TIMES",
+          "status": "AVAILABLE",
+          "reasonCode": null,
+          "reason": null,
+          "formula": "종가 ÷ BPS",
+          "usedAccounts": [
+            "PARENT_EQUITY"
+          ],
+          "explanation": "주가가 최근 사업연도 보통주 한 주당 순자산의 몇 배인지 보여줍니다.",
+          "naConditions": "BPS 0 이하·N/A, 종가·기준일·출처 없음 또는 비정상",
+          "basisNote": "최근 사업연도 재무제표와 표시된 기준일의 보통주 종가 사용",
+          "priceAsOf": "2026-11-16"
+        }
+      ]
+    },
+    "meta": {
+      "mode": "REAL",
+      "sources": [
+        "DART",
+        "FSC"
+      ],
+      "collectedAt": "2026-11-17T06:01:33.794628Z",
+      "financialPeriods": [
+        {
+          "fiscalYear": 2025,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20260311003822",
+          "filedAt": "2026-03-11",
+          "periodStart": "2025-01-01",
+          "periodEnd": "2025-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:32.78073Z"
+        },
+        {
+          "fiscalYear": 2024,
+          "reportCode": "11011",
+          "basis": "CFS",
+          "receiptNo": "20250312000906",
+          "filedAt": "2025-03-12",
+          "periodStart": "2024-01-01",
+          "periodEnd": "2024-12-31",
+          "source": "DART",
+          "collectedAt": "2026-11-17T06:01:32.93604Z"
+        }
+      ],
+      "market": {
+        "closePriceAsOf": "2026-11-16",
+        "closePriceSource": "FSC",
+        "marketCapAsOf": "2026-11-16",
+        "marketCapSource": "FSC",
+        "collectedAt": "2026-11-17T06:01:33.794628Z",
+        "scope": "COMMON_STOCK"
+      },
+      "stale": false
+    },
+    "error": null
+  },
+  "detail": {
+    "data": {
+      "stockCode": "034220",
+      "corpCode": "00105873",
+      "name": "엘지디스플레이(주)",
+      "market": "KOSPI",
+      "industryCode": "2621",
+      "industryName": "업종코드 2621",
+      "fiscalMonth": 12,
+      "hasPreferredShares": false,
+      "supported": true,
+      "price": {
+        "closePrice": "7060.000000",
+        "marketCap": "3530000000000",
+        "currency": "KRW",
+        "status": "AVAILABLE",
+        "reason": null
+      }
+    },
+    "meta": {
+      "mode": "REAL",
+      "sources": [
+        "DART",
+        "FSC"
+      ],
+      "collectedAt": "2026-11-17T06:01:33.794628Z",
+      "financialPeriods": [],
+      "market": {
+        "closePriceAsOf": "2026-11-16",
+        "closePriceSource": "FSC",
+        "marketCapAsOf": "2026-11-16",
+        "marketCapSource": "FSC",
+        "collectedAt": "2026-11-17T06:01:33.794628Z",
+        "scope": "COMMON_STOCK"
+      },
+      "stale": false
+    },
+    "error": null
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.api.CompanyControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-17T00:42:56" hostname="DESKTOP-TMU829P" time="0.482">
+  <properties/>
+  <testcase name="excessiveYearRangeIs400()" classname="com.stockinsight.api.CompanyControllerTest" time="0.249"/>
+  <testcase name="blankQueryIs400WithEnvelope()" classname="com.stockinsight.api.CompanyControllerTest" time="0.19"/>
+  <testcase name="invalidStockCodeIs400()" classname="com.stockinsight.api.CompanyControllerTest" time="0.008"/>
+  <testcase name="missingQueryIs400()" classname="com.stockinsight.api.CompanyControllerTest" time="0.016"/>
+  <testcase name="nonNumericYearsIs400()" classname="com.stockinsight.api.CompanyControllerTest" time="0.012"/>
+  <system-out><![CDATA[2026-11-17T09:42:55.652+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.stockinsight.api.CompanyControllerTest]: CompanyControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-17T09:42:55.704+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.stockinsight.StockInsightApplication for test class com.stockinsight.api.CompanyControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-11-17T09:42:55.750+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] c.s.api.CompanyControllerTest            : Starting CompanyControllerTest using Java 21.0.12 with PID 12000 (started by rhfov in C:\Users\rhfov\Documents\Codex\2026-11-17\phase-0-phase-1\outputs\stock-insight-backend)
+2026-11-17T09:42:55.750+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] c.s.api.CompanyControllerTest            : No active profile set, falling back to 1 default profile: "mock"
+2026-11-17T09:42:56.637+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-11-17T09:42:56.637+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-11-17T09:42:56.637+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-11-17T09:42:56.679+09:00  INFO 12000 --- [stock-insight-backend] [    Test worker] c.s.api.CompanyControllerTest            : Started CompanyControllerTest in 0.965 seconds (process running for 12.632)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

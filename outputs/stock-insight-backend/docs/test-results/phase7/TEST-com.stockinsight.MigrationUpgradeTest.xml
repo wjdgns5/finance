@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.MigrationUpgradeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-17T10:25:27" hostname="DESKTOP-TMU829P" time="1.805">
+  <properties/>
+  <testcase name="v2AddsSourceColumnsAndPreservesExistingV1Values()" classname="com.stockinsight.MigrationUpgradeTest" time="1.805"/>
+  <system-out><![CDATA[19:25:28.768 [Test worker] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:mysql://127.0.0.1:13407/stock_insight_upgrade?useSSL=false&allowPublicKeyRetrieval=true&connectionTimeZone=UTC (MySQL 8.0)
+19:25:28.903 [Test worker] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table `stock_insight_upgrade`.`flyway_schema_history` does not exist yet
+19:25:28.907 [Test worker] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 2 migrations (execution time 00:00.028s)
+19:25:28.926 [Test worker] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table `stock_insight_upgrade`.`flyway_schema_history` ...
+19:25:29.034 [Test worker] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema `stock_insight_upgrade`: << Empty Schema >>
+19:25:29.068 [Test worker] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema `stock_insight_upgrade` to version "1 - create initial schema"
+19:25:29.250 [Test worker] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 1 migration to schema `stock_insight_upgrade`, now at version v1 (execution time 00:00.171s)
+19:25:29.301 [Test worker] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:mysql://127.0.0.1:13407/stock_insight_upgrade?useSSL=false&allowPublicKeyRetrieval=true&connectionTimeZone=UTC (MySQL 8.0)
+19:25:29.310 [Test worker] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 2 migrations (execution time 00:00.008s)
+19:25:29.310 [Test worker] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema `stock_insight_upgrade`: 1
+19:25:29.328 [Test worker] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema `stock_insight_upgrade` to version "2 - retain source documents"
+19:25:29.363 [Test worker] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 1 migration to schema `stock_insight_upgrade`, now at version v2 (execution time 00:00.022s)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

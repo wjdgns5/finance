@@ -1,0 +1,6 @@
+app:
+  data-mode: REAL
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:13306/stock_insight_real?useSSL=false&allowPublicKeyRetrieval=true&connectionTimeZone=UTC}

@@ -1,0 +1,37 @@
+{
+  "verifiedAt": "2026-11-17T10:35:20.546Z",
+  "version": "0.6.0",
+  "markdownFiles": 24,
+  "validLocalLinks": 190,
+  "localImages": 1,
+  "mermaidBlocks": 3,
+  "powershellBlocks": 35,
+  "apiMappings": 7,
+  "schemaTables": [
+    "company",
+    "financial_statement",
+    "financial_account",
+    "market_price",
+    "data_sync_history"
+  ],
+  "schemaDistinctColumns": 48,
+  "configuredApiKeyScan": {
+    "files": 231,
+    "matches": 0
+  },
+  "problems": [],
+  "status": "PASS",
+  "windowsPowerShellSyntax": {
+    "engine": "5.1.26100.9818",
+    "markdownBlocks": 35,
+    "scripts": 3,
+    "result": "PASS"
+  },
+  "documentedBackendTestRun": {
+    "verifiedAt": "2026-11-17T10:25:48.0154088Z",
+    "tests": 217,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  }
+}

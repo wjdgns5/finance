@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.service.CompanyQueryServiceTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-17T06:56:27" hostname="DESKTOP-TMU829P" time="0.628">
+  <properties/>
+  <testcase name="negativeAndZeroReportedValuesRemainAvailable()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.565"/>
+  <testcase name="prefersConsolidatedAndReturnsExactlyFiveDistinctYears()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.009"/>
+  <testcase name="financialIndustryIs422AndDoesNotQueryStatements()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.006"/>
+  <testcase name="latestSyncFailureMarksExistingDataStale()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.004"/>
+  <testcase name="unknownCompanyIs404()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.009"/>
+  <testcase name="searchEscapesWildcardsAndScopesToMock()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.021"/>
+  <testcase name="preservesBasisChangesAndMissingValuesWithoutInventingYears()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.004"/>
+  <testcase name="missingPriceDoesNotReplaceValuesWithZero()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.002"/>
+  <testcase name="missingFinancialsHaveExplicitNotCollectedStatus()" classname="com.stockinsight.service.CompanyQueryServiceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

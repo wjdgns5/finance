@@ -1,0 +1,18 @@
+* text=auto
+*.java text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.gradle text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.jar binary
+*.jpg binary
+*.jpeg binary
+*.png binary

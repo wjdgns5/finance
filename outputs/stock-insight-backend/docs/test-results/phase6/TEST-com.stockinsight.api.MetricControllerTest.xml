@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.api.MetricControllerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-17T07:43:51" hostname="DESKTOP-TMU829P" time="0.052">
+  <properties/>
+  <testcase name="validatesStockCodeBeforeQuerying()" classname="com.stockinsight.api.MetricControllerTest" time="0.022"/>
+  <testcase name="preservesNotFoundAndUnsupportedStatus()" classname="com.stockinsight.api.MetricControllerTest" time="0.014"/>
+  <testcase name="annualProfitabilityValidatesYearRange()" classname="com.stockinsight.api.MetricControllerTest" time="0.013"/>
+  <system-out><![CDATA[2026-11-17T16:43:50.768+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.stockinsight.api.MetricControllerTest]: MetricControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-11-17T16:43:50.783+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.stockinsight.StockInsightApplication for test class com.stockinsight.api.MetricControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.16)
+
+2026-11-17T16:43:50.854+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] c.stockinsight.api.MetricControllerTest  : Starting MetricControllerTest using Java 21.0.12 with PID 28076 (started by rhfov in C:\Users\rhfov\Documents\Codex\2026-11-17\phase-0-phase-1\outputs\stock-insight-backend)
+2026-11-17T16:43:50.854+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] c.stockinsight.api.MetricControllerTest  : No active profile set, falling back to 1 default profile: "mock"
+2026-11-17T16:43:51.365+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-11-17T16:43:51.365+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-11-17T16:43:51.366+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-11-17T16:43:51.366+09:00  INFO 28076 --- [stock-insight-backend] [    Test worker] c.stockinsight.api.MetricControllerTest  : Started MetricControllerTest in 0.583 seconds (process running for 25.433)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

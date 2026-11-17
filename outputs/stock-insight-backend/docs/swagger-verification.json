@@ -1,0 +1,50 @@
+{
+  "verifiedAt": "2026-11-17T12:31:38.618Z",
+  "applicationVersion": "0.6.0",
+  "springdocVersion": "2.10.0",
+  "openapiVersion": "3.0.1",
+  "backendTests": {
+    "verifiedAt": "2026-11-17T12:29:53.9758100Z",
+    "tests": 222,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "addedTests": [
+    "Mock operation constraints and common errors",
+    "Numeric string and nullable schemas",
+    "Swagger HTML and config",
+    "REAL operations without collection or key exposure",
+    "Local documentation access policy"
+  ],
+  "packagedHttpChecks": [
+    "Mock: OpenAPI JSON/YAML, operation count, relative server, UI redirect/assets, foreign-origin denial PASS",
+    "Real: OpenAPI JSON/YAML, operation count, relative server, UI redirect/assets, foreign-origin denial PASS"
+  ],
+  "profiles": [
+    {
+      "mode": "MOCK",
+      "paths": 5,
+      "resolvedReferences": 88,
+      "json": "openapi-mock.json",
+      "yaml": "openapi-mock.yaml",
+      "utf8": "PASS"
+    },
+    {
+      "mode": "REAL",
+      "paths": 7,
+      "resolvedReferences": 110,
+      "json": "openapi-real.json",
+      "yaml": "openapi-real.yaml",
+      "utf8": "PASS"
+    }
+  ],
+  "browserInteraction": {
+    "status": "NOT_VERIFIED",
+    "reason": "In-app browser could not reach the automated runtime localhost; connection timed out. UI HTML, redirect, config and bundled assets passed HTTP checks."
+  },
+  "jarSha256": "aabdea03d92bbbb7828b498f5508a55289d2dee06ce254212fc660dcfea35c8c",
+  "configuredApiKeyMatches": 0,
+  "problems": [],
+  "status": "PASS"
+}

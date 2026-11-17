@@ -1,0 +1,52 @@
+{
+  "verifiedAt": "2026-11-17T07:29:37.1666815Z",
+  "version": "0.5.0",
+  "frontend": {
+    "tests": 17,
+    "failures": 0,
+    "typecheck": "PASS",
+    "build": "PASS",
+    "bundlesKB": {
+      "main": 269.08,
+      "chart": 394.96,
+      "css": 34.86
+    }
+  },
+  "backend": {
+    "tests": 213,
+    "failures": 0,
+    "errors": 0,
+    "jar": "stock-insight-backend-0.5.0.jar",
+    "jarBytes": 56465900
+  },
+  "realHttp": {
+    "stockCodes": [
+      "000270",
+      "011170",
+      "005930",
+      "008870"
+    ],
+    "yearsPerCompany": 5,
+    "latestHistoryConsistency": "PASS",
+    "dataSource": "Phase 4 collected REAL database reused"
+  },
+  "browser": "PASS_MOCK_AND_REAL_4_TABS_390PX",
+  "userFilingComparison": "UNCONFIRMED",
+  "phase6": "NOT_STARTED",
+  "browserCompanies": [
+    "990001",
+    "990002",
+    "990003",
+    "990004",
+    "990005",
+    "000270",
+    "011170",
+    "005930"
+  ],
+  "fixedDuringBrowserQA": "Read company detail after first financial collection updates preferred-share status; regression test passed",
+  "limitations": [
+    "User comparison against DART filing screens unconfirmed",
+    "Physical mobile touch not tested",
+    "Deliberate offline and delayed-response race not reproduced in browser"
+  ]
+}

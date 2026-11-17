@@ -1,0 +1,13 @@
+{
+  "script": "scripts/start-real-local.ps1",
+  "windowsPowerShell": "5.1",
+  "validatedAt": "2026-11-17T06:30:57.6448125Z",
+  "startup": "PASS",
+  "backendValidationProxy": "PASS",
+  "frontend": "http://127.0.0.1:5175",
+  "api": "http://127.0.0.1:8081",
+  "mysqlPort": 13307,
+  "utf8Bom": true,
+  "externalApiCallsInStartupCheck": false,
+  "stoppedOwnedProcesses": true
+}

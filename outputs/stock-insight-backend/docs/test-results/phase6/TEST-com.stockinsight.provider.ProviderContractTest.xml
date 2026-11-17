@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.provider.ProviderContractTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-11-17T07:43:52" hostname="DESKTOP-TMU829P" time="1.089">
+  <properties/>
+  <testcase name="acceptsSingleFscItemAndMissingMarketCap()" classname="com.stockinsight.provider.ProviderContractTest" time="0.04"/>
+  <testcase name="financialIndustryIsMarkedUnsupportedFromDisclosedCode()" classname="com.stockinsight.provider.ProviderContractTest" time="0.016"/>
+  <testcase name="preferredCompanyNeedsExplicitCommonEpsAndNeverAssumesZeroPreferred()" classname="com.stockinsight.provider.ProviderContractTest" time="0.083"/>
+  <testcase name="mismatchedCorrectionAndMissingPeriodAreRejected()" classname="com.stockinsight.provider.ProviderContractTest" time="0.067"/>
+  <testcase name="[1] close=0" classname="com.stockinsight.provider.ProviderContractTest" time="0.031"/>
+  <testcase name="[2] close=-1" classname="com.stockinsight.provider.ProviderContractTest" time="0.035"/>
+  <testcase name="[3] close=abc" classname="com.stockinsight.provider.ProviderContractTest" time="0.045"/>
+  <testcase name="fscChoosesLatestExactStockAndRetainsEachDateAndSource()" classname="com.stockinsight.provider.ProviderContractTest" time="0.049"/>
+  <testcase name="rejectsXmlEntitiesAndDuplicateStockCodes()" classname="com.stockinsight.provider.ProviderContractTest" time="0.025"/>
+  <testcase name="beforeAnnualFilingUsesFiveYearsEndingAtLatestPublishedYear()" classname="com.stockinsight.provider.ProviderContractTest" time="0.244"/>
+  <testcase name="ambiguousAndInvalidAccountsStayMissing()" classname="com.stockinsight.provider.ProviderContractTest" time="0.045"/>
+  <testcase name="[1] code=010" classname="com.stockinsight.provider.ProviderContractTest" time="0.01"/>
+  <testcase name="[2] code=011" classname="com.stockinsight.provider.ProviderContractTest" time="0.008"/>
+  <testcase name="[3] code=012" classname="com.stockinsight.provider.ProviderContractTest" time="0.01"/>
+  <testcase name="[4] code=020" classname="com.stockinsight.provider.ProviderContractTest" time="0.008"/>
+  <testcase name="[5] code=800" classname="com.stockinsight.provider.ProviderContractTest" time="0.008"/>
+  <testcase name="[6] code=901" classname="com.stockinsight.provider.ProviderContractTest" time="0.008"/>
+  <testcase name="ofsFallbackOnlyHappensForNoDataNotRateLimit()" classname="com.stockinsight.provider.ProviderContractTest" time="0.056"/>
+  <testcase name="directoryIsZippedListedOnlyAndReused()" classname="com.stockinsight.provider.ProviderContractTest" time="0.018"/>
+  <testcase name="missingKeysDoNotMakeNetworkRequests()" classname="com.stockinsight.provider.ProviderContractTest" time="0.026"/>
+  <testcase name="eachOfFiveYearsUsesItsOwnAnnualCurrentAmount()" classname="com.stockinsight.provider.ProviderContractTest" time="0.073"/>
+  <testcase name="normalizesCurrentAmountsWithOriginalsAndUnmappedWarnings()" classname="com.stockinsight.provider.ProviderContractTest" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

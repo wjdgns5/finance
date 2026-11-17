@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-11-17T07:58:00.8901343Z",
+  "version": "0.6.0",
+  "frontend": {
+    "tests": 21,
+    "failures": 0,
+    "typecheck": "PASS",
+    "productionBuild": "PASS",
+    "mainKB": 271.44,
+    "chartKB": 394.96,
+    "cssKB": 34.86
+  },
+  "backend": {
+    "tests": 217,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "jar": "stock-insight-backend-0.6.0.jar"
+  },
+  "packagedHttpChecks": 17,
+  "browser": {
+    "checks": 15,
+    "failed": 0
+  },
+  "npmAuditVulnerabilities": 0,
+  "userFilingComparison": "UNCONFIRMED",
+  "phase7": "NOT_STARTED",
+  "realBackendHttp": {
+    "version": "0.6.0",
+    "companies": [
+      "000270",
+      "011170",
+      "005930",
+      "008870"
+    ],
+    "yearsPerCompany": 5,
+    "result": "PASS"
+  }
+}

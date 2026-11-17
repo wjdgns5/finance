@@ -1,0 +1,4 @@
+{"status":"000","message":"정상","list":[
+  {"rcept_no":"20260320000002","bsns_year":"2025","reprt_code":"11011","stock_code":"123456","fs_div":"CFS","sj_div":"IS","thstrm_dt":"2025.01.01 ~ 2025.12.31"},
+  {"rcept_no":"20260320000002","bsns_year":"2025","reprt_code":"11011","stock_code":"123456","fs_div":"CFS","sj_div":"BS","thstrm_dt":"2025.12.31 현재"}
+]}

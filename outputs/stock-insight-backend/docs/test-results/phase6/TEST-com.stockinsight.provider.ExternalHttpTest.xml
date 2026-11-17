@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.provider.ExternalHttpTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-17T07:43:51" hostname="DESKTOP-TMU829P" time="0.551">
+  <properties/>
+  <testcase name="limitsBodySizeAndTotalTimeIncludingSlowBody()" classname="com.stockinsight.provider.ExternalHttpTest" time="0.551"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

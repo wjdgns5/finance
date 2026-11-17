@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stockinsight.provider.LiveDartSamplesTest" tests="68" skipped="0" failures="0" errors="0" timestamp="2026-11-17T06:56:25" hostname="DESKTOP-TMU829P" time="0.923">
+  <properties/>
+  <testcase name="actualSamsungIncomeAndComprehensiveIncomeAreSameStandardAccount()" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.09"/>
+  <testcase name="000270 / REVENUE" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.14"/>
+  <testcase name="000270 / OPERATING_PROFIT" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / NET_INCOME" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="000270 / PARENT_NET_INCOME" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="000270 / TOTAL_ASSETS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / TOTAL_LIABILITIES" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="000270 / TOTAL_EQUITY" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="000270 / PARENT_EQUITY" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / OPERATING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.004"/>
+  <testcase name="000270 / INVESTING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="000270 / FINANCING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / BASIC_EPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / REVENUE" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.021"/>
+  <testcase name="011170 / OPERATING_PROFIT" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / NET_INCOME" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / PARENT_NET_INCOME" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / TOTAL_ASSETS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / TOTAL_LIABILITIES" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / TOTAL_EQUITY" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / PARENT_EQUITY" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / OPERATING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / INVESTING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / FINANCING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / BASIC_EPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / REVENUE" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / OPERATING_PROFIT" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / NET_INCOME" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / PARENT_NET_INCOME" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="005930 / TOTAL_ASSETS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="005930 / TOTAL_LIABILITIES" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / TOTAL_EQUITY" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / PARENT_EQUITY" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / OPERATING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / INVESTING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / FINANCING_CASH_FLOW" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="005930 / BASIC_EPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="conflictingIncomeAndComprehensiveIncomeRemainUnmapped()" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.023"/>
+  <testcase name="000270 / REVENUE_GROWTH" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.04"/>
+  <testcase name="000270 / OPERATING_MARGIN" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / NET_MARGIN" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="000270 / ROE" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / ROA" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="000270 / DEBT_RATIO" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / EPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="000270 / BPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="000270 / PER" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="000270 / PBR" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / REVENUE_GROWTH" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.017"/>
+  <testcase name="011170 / OPERATING_MARGIN" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / NET_MARGIN" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="011170 / ROE" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.001"/>
+  <testcase name="011170 / ROA" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / DEBT_RATIO" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / EPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / BPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.004"/>
+  <testcase name="011170 / PER" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.002"/>
+  <testcase name="011170 / PBR" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="005930 / REVENUE_GROWTH" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.016"/>
+  <testcase name="005930 / OPERATING_MARGIN" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="005930 / NET_MARGIN" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.004"/>
+  <testcase name="005930 / ROE" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.004"/>
+  <testcase name="005930 / ROA" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="005930 / DEBT_RATIO" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="005930 / EPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.004"/>
+  <testcase name="005930 / BPS" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.004"/>
+  <testcase name="005930 / PER" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.003"/>
+  <testcase name="005930 / PBR" classname="com.stockinsight.provider.LiveDartSamplesTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

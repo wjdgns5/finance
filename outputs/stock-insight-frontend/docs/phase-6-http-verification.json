@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-11-17T07:45:01.2272179Z",
+  "version": "0.6.0",
+  "checks": [
+    {
+      "scenario": "Reject external request: Origin",
+      "status": 403,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Reject external request: Origin",
+      "status": 403,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Reject external request: Sec-Fetch-Site",
+      "status": 403,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Reject external request: Host",
+      "status": 403,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Local CLI GET and nosniff",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Production HTML and hashed assets",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Static path blocked: /.env",
+      "status": 403,
+      "result": "PASS"
+    },
+    {
+      "scenario": "Static path blocked: /@fs/C:/Users/rhfov/Documents/Codex/secret",
+      "status": 403,
+      "result": "PASS"
+    },
+    {
+      "scenario": "normal",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "metrics-fail",
+      "status": 503,
+      "result": "PASS"
+    },
+    {
+      "scenario": "history-fail",
+      "status": 504,
+      "result": "PASS"
+    },
+    {
+      "scenario": "period-mismatch",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "malformed-metrics",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "stale",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "empty",
+      "status": 200,
+      "result": "PASS"
+    },
+    {
+      "scenario": "real-key-error",
+      "status": 503,
+      "result": "PASS"
+    },
+    {
+      "scenario": "offline",
+      "status": "CONNECTION_CLOSED",
+      "result": "PASS"
+    }
+  ]
+}

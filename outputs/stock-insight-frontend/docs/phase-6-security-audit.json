@@ -1,0 +1,72 @@
+{
+  "verifiedAt": "2026-11-17T08:00:53.952Z",
+  "version": "0.6.0",
+  "configuredApiKeyScan": {
+    "configuredKeys": 2,
+    "scannedFiles": 221,
+    "matches": 0,
+    "scope": "source, test fixtures, docs, frontend production bundle, launch scripts and Phase 6 server logs"
+  },
+  "realResponseContracts": [
+    {
+      "stockCode": "000270",
+      "endpoint": "financials",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "000270",
+      "endpoint": "metrics",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "000270",
+      "endpoint": "profitability",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "011170",
+      "endpoint": "financials",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "011170",
+      "endpoint": "metrics",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "011170",
+      "endpoint": "profitability",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "005930",
+      "endpoint": "financials",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "005930",
+      "endpoint": "metrics",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "005930",
+      "endpoint": "profitability",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "008870",
+      "endpoint": "financials",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "008870",
+      "endpoint": "metrics",
+      "result": "PASS"
+    },
+    {
+      "stockCode": "008870",
+      "endpoint": "profitability",
+      "result": "PASS"
+    }
+  ]
+}

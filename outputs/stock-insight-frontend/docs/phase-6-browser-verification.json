@@ -1,0 +1,82 @@
+{
+  "verifiedAt": "2026-11-17T07:55:24.078Z",
+  "version": "0.6.0",
+  "environment": "PC PowerShell; production dist + packaged Mock 0.6.0 via local QA proxy5206; existing REAL5195 regression",
+  "checks": [
+    {
+      "scenario": "Production normal search to four tabs",
+      "result": "PASS",
+      "evidence": "Korean name + Enter, 2025 CFS revenue1800억, 5-year chart/table, cash chart and investment cards"
+    },
+    {
+      "scenario": "Latest metrics only fails",
+      "result": "PASS",
+      "evidence": "재무 요약1800/180/120억 유지, ROE N/A, 투자지표 오류·재시도 표시"
+    },
+    {
+      "scenario": "Profitability history only fails",
+      "result": "PASS",
+      "evidence": "매출 막대 유지, 이익률 오류 안내, 선값을0으로 대체하지 않음"
+    },
+    {
+      "scenario": "Mismatched filing receipt",
+      "result": "PASS",
+      "evidence": "투자지표 기준 불일치 안내, 지표 N/A로 분리"
+    },
+    {
+      "scenario": "Malformed metrics structure",
+      "result": "PASS",
+      "evidence": "형식 오류를 부분 실패로 처리, 흰 화면 대신 재무 요약 유지"
+    },
+    {
+      "scenario": "Stale stored data",
+      "result": "PASS",
+      "evidence": "마지막 정상 자료 안내와 기존1800억·기준일 유지"
+    },
+    {
+      "scenario": "No annual financial statements",
+      "result": "PASS",
+      "evidence": "0개년·연도 미확인·요약N/A, 재무/현금 차트 자료 없음, 투자지표 N/A로 유지"
+    },
+    {
+      "scenario": "Connection closed",
+      "result": "PASS",
+      "evidence": "서버 연결 불가·재시도 표시, 가상 수치나 KPI를 만들지 않음"
+    },
+    {
+      "scenario": "Initial REAL authentication failure",
+      "result": "PASS",
+      "evidence": "REAL 모드·검색 결과·키 설정 오류 표시, 가상 목록/수치 대체 없음"
+    },
+    {
+      "scenario": "Delayed old company response",
+      "result": "PASS",
+      "evidence": "990001 응답2.5초 지연 후990002 선택; 지연 완료 뒤에도 새봄·영업−80억·EPS−600·PER N/A 유지"
+    },
+    {
+      "scenario": "Production partial years and 390px",
+      "result": "PASS",
+      "evidence": "OFS 차트 막대1개, 표에2025연결/2024별도, 문서375/뷰포트390, 표307/내용590 내부스크롤"
+    },
+    {
+      "scenario": "Connection restored then retry without reloading",
+      "result": "PASS",
+      "evidence": "다른 제어 탭에서 통신복구 후 기존 오류 화면의 다시시도→기업목록→선택→정상KPI 복구"
+    },
+    {
+      "scenario": "Unsupported industry after selected company",
+      "result": "PASS",
+      "evidence": "미지원 업종 표시·기존KPI0개"
+    },
+    {
+      "scenario": "REAL live-page contract regression",
+      "result": "PASS",
+      "evidence": "기존REAL5195에서 새 프론트엔드 계약검사로 기아 5개년·4탭·PER4.9·PBR0.6 표시"
+    },
+    {
+      "scenario": "No result and empty input",
+      "result": "PASS",
+      "evidence": "0개·검색결과없음·목록복구, 공백입력은 입력요청 경고"
+    }
+  ]
+}
